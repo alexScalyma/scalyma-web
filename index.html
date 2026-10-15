@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-page-node-id="hczdaf4gDUTPxMp4e5HbMw">
+<head data-page-node-id="wAw3Bn4ISwPxEO2fQpFxF3">
+<meta charset="UTF-8" data-page-node-id="zChpO3LKvp6PWcIUb1j2E9">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="XZ8JingPN46DoDKqYcHKBR">
+<title>SCALYMA · 隐形的信任，看得见的价值 | DigiBiz Limited 迪致图像（深圳）有限公司</title>
+<meta name="description" content="Scalyma 隐形成像标准 × DHIT 数码隐形图像 × 码中码® 动态身份 × Scan-EZ 智慧识别 —— 物理-数字融合身份信任基础设施" data-page-node-id="v6A0i0I4Jm6PvKUwxEG4PT">
+<link rel="preconnect" href="https://fonts.googleapis.com" data-page-node-id="atPofh3x3olc61rH9cgira">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin data-page-node-id="rY5GOvhvHAbVggjggVHSFp">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600&family=Noto+Sans+SC:wght@300;400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" data-page-node-id="q1dYRATLyDwGjfXjHSHRSC">
+<style>
+:root{
+  --midnight:#0A1E33; --deep:#0C447C; --brand:#185FA5; --teal:#0F6E56;
+  --champagne:#B08D57; --paper:#FAFAF8; --ink:#16233A; --grey:#B4B2A9;
+  --line:rgba(12,68,124,.14); --radius:14px;
+  --font-latin:'Jost',sans-serif; --font-cn:'Noto Sans SC',sans-serif; --font-mono:'IBM Plex Mono',monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-latin),var(--font-cn);color:var(--ink);background:var(--paper);line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.container{max-width:1180px;margin:0 auto;padding:0 28px}
+h1,h2,h3{font-weight:300;letter-spacing:.04em;line-height:1.25}
+.en-wide{letter-spacing:.28em;text-transform:uppercase}
+section{padding:96px 0}
+.kicker{font-family:var(--font-mono);font-size:.78rem;letter-spacing:.32em;text-transform:uppercase;color:var(--brand);margin-bottom:14px}
+.sec-title{font-size:clamp(1.7rem,3.4vw,2.5rem);color:var(--midnight);margin-bottom:14px}
+.sec-sub{color:#5a6b83;max-width:640px;margin-bottom:52px;font-size:1.02rem}
+.dark .sec-title{color:#fff}.dark .sec-sub{color:rgba(255,255,255,.62)}
+
+/* ===== NAV ===== */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(10,30,51,.0);transition:.35s;padding:18px 0}
+nav.scrolled{background:rgba(10,30,51,.92);backdrop-filter:blur(14px);padding:10px 0;box-shadow:0 4px 30px rgba(0,0,0,.25)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.logo svg{height:36px;width:auto}
+.logo-name{color:#fff;font-weight:400;letter-spacing:.34em;font-size:1.02rem}
+.nav-links{display:flex;gap:34px;align-items:center;list-style:none}
+.nav-links a{color:rgba(255,255,255,.82);text-decoration:none;font-size:.9rem;letter-spacing:.08em;transition:.25s}
+.nav-links a:hover{color:#fff}
+.lang-btn{border:1px solid rgba(255,255,255,.45);color:#fff;background:none;font-family:var(--font-mono);font-size:.8rem;padding:6px 14px;border-radius:20px;cursor:pointer;letter-spacing:.1em;transition:.25s}
+.lang-btn:hover{background:#fff;color:var(--midnight)}
+.nav-toggle{display:none;background:none;border:none;color:#fff;font-size:1.5rem;cursor:pointer}
+
+/* ===== HERO ===== */
+.hero{min-height:100vh;display:flex;align-items:center;position:relative;background:var(--midnight);overflow:hidden;padding:0}
+#halftone{position:absolute;inset:0;width:100%;height:100%}
+.hero-content{position:relative;z-index:2;width:100%;padding:120px 0 80px}
+.hero-tag{font-family:var(--font-mono);color:var(--champagne);letter-spacing:.4em;font-size:.8rem;text-transform:uppercase;margin-bottom:26px}
+.hero h1{color:#fff;font-size:clamp(2.2rem,5.2vw,4rem);font-weight:200;line-height:1.22;max-width:900px}
+.hero h1 .reveal-word{color:#7db4e8}
+.hero p.lead{color:rgba(255,255,255,.68);max-width:640px;margin:28px 0 44px;font-size:1.08rem;font-weight:300}
+.hero-ctas{display:flex;gap:18px;flex-wrap:wrap}
+.btn{display:inline-block;padding:14px 36px;border-radius:32px;text-decoration:none;font-size:.92rem;letter-spacing:.12em;transition:.3s}
+.btn-primary{background:var(--brand);color:#fff}
+.btn-primary:hover{background:#1e6fbd;transform:translateY(-2px);box-shadow:0 10px 30px rgba(24,95,165,.4)}
+.btn-ghost{border:1px solid rgba(255,255,255,.4);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.1)}
+.hero-techs{position:absolute;bottom:44px;left:0;right:0;z-index:2}
+.tech-ticker{display:flex;gap:52px;justify-content:center;flex-wrap:wrap;font-family:var(--font-mono);font-size:.78rem;color:rgba(255,255,255,.45);letter-spacing:.18em}
+.tech-ticker span{border-left:2px solid var(--champagne);padding-left:12px}
+
+/* ===== STATS ===== */
+.stats{background:#fff;border-bottom:1px solid var(--line);padding:56px 0}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;text-align:center}
+.stat-num{font-size:2.6rem;font-weight:200;color:var(--deep);font-family:var(--font-latin)}
+.stat-num b{font-weight:500}
+.stat-label{font-size:.85rem;color:#5a6b83;letter-spacing:.06em;margin-top:4px}
+
+/* ===== TECH CARDS ===== */
+.tech-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:26px}
+.tech-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:38px;position:relative;overflow:hidden;transition:.35s}
+.tech-card:hover{transform:translateY(-6px);box-shadow:0 20px 50px rgba(12,68,124,.13);border-color:rgba(24,95,165,.35)}
+.tech-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--brand),var(--teal))}
+.tech-num{font-family:var(--font-mono);color:var(--grey);font-size:.8rem;letter-spacing:.2em}
+.tech-card h3{font-size:1.5rem;color:var(--midnight);margin:10px 0 2px;font-weight:400}
+.tech-en{font-family:var(--font-mono);font-size:.75rem;color:var(--brand);letter-spacing:.24em;text-transform:uppercase}
+.tech-card p{color:#5a6b83;margin-top:16px;font-size:.95rem}
+.tech-role{display:inline-block;margin-top:18px;font-size:.78rem;padding:5px 14px;border-radius:16px;background:rgba(24,95,165,.08);color:var(--deep);letter-spacing:.08em}
+.flow-diagram{margin-top:56px;background:var(--midnight);border-radius:var(--radius);padding:46px 36px}
+.flow-title{text-align:center;color:rgba(255,255,255,.55);font-family:var(--font-mono);font-size:.75rem;letter-spacing:.3em;text-transform:uppercase;margin-bottom:30px}
+.flow-diagram svg{width:100%;height:auto;display:block}
+
+/* ===== PRINCIPLES (tabs) ===== */
+.principles{background:#fff}
+.tabs{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:34px}
+.tab-btn{border:1px solid var(--line);background:none;padding:11px 22px;border-radius:26px;cursor:pointer;font-size:.88rem;color:#5a6b83;transition:.25s;font-family:inherit}
+.tab-btn.active{background:var(--deep);color:#fff;border-color:var(--deep)}
+.tab-panel{display:none;animation:fadeIn .45s}
+.tab-panel.active{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+@keyframes fadeIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.tab-panel h3{font-size:1.4rem;color:var(--midnight);font-weight:400;margin-bottom:16px}
+.tab-panel p{color:#5a6b83;font-size:.97rem;margin-bottom:14px}
+.tab-visual{background:var(--midnight);border-radius:var(--radius);padding:30px;display:flex;align-items:center;justify-content:center}
+.tab-visual svg{width:100%;height:auto}
+.formula{font-family:var(--font-mono);background:rgba(24,95,165,.07);border-left:3px solid var(--brand);padding:12px 18px;border-radius:0 8px 8px 0;font-size:.85rem;color:var(--deep);margin:16px 0}
+
+/* ===== ADVANTAGES ===== */
+.adv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-bottom:64px}
+.adv-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:var(--radius);padding:36px;transition:.3s}
+.adv-card:hover{background:rgba(255,255,255,.09);transform:translateY(-4px)}
+.adv-icon{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-bottom:20px;background:rgba(176,141,87,.15)}
+.adv-icon svg{width:26px;height:26px;stroke:var(--champagne);fill:none;stroke-width:1.6}
+.adv-card h3{color:#fff;font-size:1.2rem;font-weight:400;margin-bottom:12px}
+.adv-card p{color:rgba(255,255,255,.6);font-size:.92rem}
+.cmp-wrap{background:#fff;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line)}
+.cmp-wrap table{width:100%;border-collapse:collapse;font-size:.92rem}
+.cmp-wrap th{background:var(--deep);color:#fff;padding:16px 20px;text-align:left;font-weight:400;letter-spacing:.06em}
+.cmp-wrap td{padding:15px 20px;border-top:1px solid var(--line);color:#42526b;vertical-align:top}
+.cmp-wrap td:first-child{color:var(--midnight);font-weight:500;width:22%}
+.cmp-wrap .yes{color:var(--teal);font-weight:500}
+.cmp-wrap .no{color:#c0392b}
+
+/* ===== APPLICATIONS ===== */
+.apps{background:#fff}
+.app-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.app-card{border:1px solid var(--line);border-radius:var(--radius);padding:30px;transition:.3s;position:relative;background:var(--paper)}
+.app-card:hover{border-color:var(--brand);box-shadow:0 14px 40px rgba(12,68,124,.1)}
+.app-card .app-tag{font-family:var(--font-mono);font-size:.7rem;color:var(--grey);letter-spacing:.2em;text-transform:uppercase}
+.app-card h3{color:var(--midnight);font-size:1.12rem;font-weight:500;margin:8px 0 10px}
+.app-card p{color:#5a6b83;font-size:.88rem}
+.rights-bar{margin-top:56px;background:linear-gradient(120deg,var(--midnight),var(--deep));border-radius:var(--radius);padding:38px 34px;color:#fff}
+.rights-bar h3{font-weight:300;font-size:1.25rem;margin-bottom:20px}
+.rights-list{display:flex;gap:14px;flex-wrap:wrap}
+.rights-list span{border:1px solid rgba(255,255,255,.3);padding:8px 20px;border-radius:24px;font-size:.88rem;letter-spacing:.1em}
+.rights-list span b{color:var(--champagne);font-weight:500}
+
+/* ===== DEMO ===== */
+.demo{background:var(--midnight)}
+.video-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:26px}
+.video-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:var(--radius);overflow:hidden}
+.video-card.main{grid-column:1/-1}
+.video-card video{width:100%;display:block;background:#000;aspect-ratio:16/9;object-fit:contain}
+.video-meta{padding:18px 24px;display:flex;justify-content:space-between;align-items:baseline;gap:14px}
+.video-meta h4{color:#fff;font-weight:400;font-size:1rem;letter-spacing:.05em}
+.video-meta span{font-family:var(--font-mono);color:rgba(255,255,255,.4);font-size:.72rem;white-space:nowrap}
+
+/* ===== CONTACT ===== */
+.contact{background:#fff}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
+.contact-info h3{color:var(--midnight);font-size:1.5rem;font-weight:300;margin-bottom:18px}
+.contact-info p{color:#5a6b83;margin-bottom:26px}
+.contact-line{display:flex;gap:14px;margin-bottom:16px;color:#42526b;font-size:.95rem}
+.contact-line b{color:var(--midnight);font-weight:500;min-width:84px}
+.contact-form{display:grid;gap:16px}
+.contact-form input,.contact-form textarea{border:1px solid var(--line);border-radius:10px;padding:14px 18px;font-family:inherit;font-size:.95rem;background:var(--paper);transition:.25s;width:100%}
+.contact-form input:focus,.contact-form textarea:focus{outline:none;border-color:var(--brand);box-shadow:0 0 0 3px rgba(24,95,165,.12)}
+.contact-form button{border:none;border-radius:30px;padding:15px;background:var(--deep);color:#fff;font-size:.95rem;letter-spacing:.12em;cursor:pointer;transition:.3s;font-family:inherit}
+.contact-form button:hover{background:var(--brand);transform:translateY(-2px)}
+
+/* ===== FOOTER ===== */
+footer{background:var(--midnight);color:rgba(255,255,255,.55);padding:54px 0 34px;font-size:.85rem}
+.foot-grid{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;margin-bottom:34px}
+.foot-brand p{max-width:360px;margin-top:12px;line-height:1.7}
+.foot-links{display:flex;gap:44px;flex-wrap:wrap}
+.foot-links h4{color:#fff;font-weight:400;font-size:.9rem;margin-bottom:12px;letter-spacing:.1em}
+.foot-links a{display:block;color:rgba(255,255,255,.5);text-decoration:none;margin-bottom:8px;transition:.2s}
+.foot-links a:hover{color:#fff}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:.78rem;color:rgba(255,255,255,.35)}
+
+/* reveal on scroll */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease}
+.rv.in{opacity:1;transform:none}
+
+@media(max-width:900px){
+  .nav-links{position:fixed;top:0;right:-280px;width:260px;height:100vh;background:var(--midnight);flex-direction:column;padding:90px 34px;gap:26px;transition:.35s;align-items:flex-start}
+  .nav-links.open{right:0}
+  .nav-toggle{display:block;z-index:110}
+  .tech-grid,.adv-grid,.app-grid,.video-grid,.contact-grid{grid-template-columns:1fr}
+  .stats-grid{grid-template-columns:repeat(2,1fr)}
+  .tab-panel.active{grid-template-columns:1fr}
+  section{padding:70px 0}
+}
+</style>
+</head>
+<body data-page-node-id="3xqWCHlVjXZ53GI9TEAGMB">
+
+<!-- ================= NAV ================= -->
+<nav id="nav" data-page-node-id="4eFvdHBsGKIhd7BylOlPCH">
+  <div class="container nav-inner" data-page-node-id="BAvT51Ylfi8qYwrEjfn0eW">
+    <a class="logo" href="#top" data-page-node-id="Exo6JsDft3CCqMgjTf7Dqu">
+      <img src="assets/logo-white.png" alt="SCALYMA logo" style="height:34px;width:auto" data-page-node-id="strAm1ikFTzCo7D4yCTs6y">
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="menu" data-page-node-id="6I8g4AuISpklBKLnIk2xo1">☰</button>
+    <ul class="nav-links" id="navLinks" data-page-node-id="3GCGd1usc31d8U1jigBeCQ">
+      <li data-page-node-id="WNEA1iLWxqmcBKvxiSsei8"><a href="#tech" data-i18n="nav_tech" data-page-node-id="DGaGxQhtLP24PmDBMca9YK">技术体系</a></li>
+      <li data-page-node-id="MVULuxTSJRGGkYsi80KYtX"><a href="#principles" data-i18n="nav_principles" data-page-node-id="Q2QefU5ViLqXDc3RfhUclf">技术原理</a></li>
+      <li data-page-node-id="GqVnZPOkG1UMiWQA3sZd1i"><a href="#advantage" data-i18n="nav_adv" data-page-node-id="1aVBxCi1ZmpW7yGY4ZejGJ">核心优势</a></li>
+      <li data-page-node-id="JdxZmMv38KQ6WKNnb5jF02"><a href="#applications" data-i18n="nav_apps" data-page-node-id="vV7WEsyjwX5c6nZ78AtXF2">应用场景</a></li>
+      <li data-page-node-id="zkEEndxcFg4sDzKwag3TBu"><a href="#demo" data-i18n="nav_demo" data-page-node-id="BdkHTMb3KFwAqyWqs2QJTP">演示中心</a></li>
+      <li data-page-node-id="FJSJeSzI2ZxCnuRGFz8GVQ"><a href="#contact" data-i18n="nav_contact" data-page-node-id="Bgo5qZ8esJXpwoWjJhHNvv">联系我们</a></li>
+      <li data-page-node-id="W6mLNT5QnnaVHMTiGgZCcX"><button class="lang-btn" id="langBtn" data-page-node-id="CeeAcEgjpKYDquHmuVAqd5">EN</button></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero" id="top" data-page-node-id="py5K4dAOOcJ9dUlIdKjw25">
+  <canvas id="halftone" data-page-node-id="LvG0BrWAHy6gP9vMRfjlnC"></canvas>
+  <div class="container hero-content" data-page-node-id="kQ5ISWJMOeiYHfITe55PbN">
+    <div class="hero-tag" data-i18n="hero_tag" data-page-node-id="WFDSFXXHMd7GSr6eKznYXo">Physical × Digital Trust Infrastructure</div>
+    <h1 data-i18n-html="hero_h1" data-page-node-id="EeYAQVs6AtXYv9JVJyVYKI">隐形的信任，<br data-page-node-id="Xmf8VdEPPfsEy3R2e4coWy">看得见的<span class="reveal-word" data-page-node-id="W1E5xNsCd0cOtAjKb5pKMC">价值</span>。</h1>
+    <p class="lead" data-i18n="hero_lead" data-page-node-id="4WfCmVyz7qxDwITGUFopnf">Scalyma 隐形成像标准、DHIT 数码隐形图像、码中码® 动态身份与 Scan-EZ 智慧识别——四项技术构成完整的物理-数字融合身份信任基础设施：每一件产品都成为安全接口、流量入口与数据资产。</p>
+    <div class="hero-ctas" data-page-node-id="vCcYXurqNMVUF8lSKr3YHy">
+      <a href="#tech" class="btn btn-primary" data-i18n="hero_cta1" data-page-node-id="Hz81d9euJH3rblICFFD2T9">探索技术体系</a>
+      <a href="#demo" class="btn btn-ghost" data-i18n="hero_cta2" data-page-node-id="K13V6DEDNfVbJAGYAgFjrT">观看技术演示</a>
+    </div>
+  </div>
+  <div class="hero-techs" data-page-node-id="Gq9ijpSs5hVAjHCP5Sli0G">
+    <div class="container tech-ticker" data-page-node-id="5BeMFeSKrePSJTfeunJThh">
+      <span data-page-node-id="2A2yuidKgeLQJVS0LvnOpF">SCALYMA</span><span data-page-node-id="gjUF6H23VMDPPRFtfACaA7">DHIT</span><span data-page-node-id="pjdc8XRlcw21gJfPwRIxFo">码中码® CODE-IN-CODE</span><span data-page-node-id="7PJmNeOFiC1Upwxse57Jc9">SCAN-EZ</span>
+    </div>
+  </div>
+</header>
+
+<!-- ================= STATS ================= -->
+<div class="stats" data-page-node-id="na4eEr8WohegSB2QmkjzIb">
+  <div class="container stats-grid" data-page-node-id="SHIQ12GFM8JiblUAKrsXDE">
+    <div class="rv" data-page-node-id="g5hEpLU3F3GUd2Kbmhf7pX"><div class="stat-num" data-page-node-id="Wt1A3qICWRxGSVavE3rxOJ"><b data-page-node-id="JJ67KPkN37bESVfkVcRbvy">2×</b></div><div class="stat-label" data-i18n="stat1" data-page-node-id="4jEZfmGwMCb050D3n8XCSk">奈奎斯特采样保障 · 手机稳定识读</div></div>
+    <div class="rv" data-page-node-id="ZRcpAiMePuJOZjWo8wYspG"><div class="stat-num" data-page-node-id="qAJKT7Vy4mQfOvt3Kbna3M">AES-128</div><div class="stat-label" data-i18n="stat2" data-page-node-id="CLCrWVUAxK87FUqQbyHBDO">等效安全强度 · 动态映射算法</div></div>
+    <div class="rv" data-page-node-id="J5gOpb2SX9fx9EdJCbjvlw"><div class="stat-num" data-page-node-id="vaGoY3jMKPe11n7PlAF4Od">0</div><div class="stat-label" data-i18n="stat3" data-page-node-id="LsBOPsT71PbgKVJttHrd38">额外物料成本 · 纯数码制版</div></div>
+    <div class="rv" data-page-node-id="EItylh68lfGEC1h5rhC8ti"><div class="stat-num" data-page-node-id="JBG8ph5GGqx3c4sLOgsPYE">7</div><div class="stat-label" data-i18n="stat4" data-page-node-id="kULqEaGqXCGG1TGL4A97Fs">大权利体系 · 确权到授权</div></div>
+  </div>
+</div>
+
+<!-- ================= TECH ================= -->
+<section id="tech" data-page-node-id="h5yzqjcXT8oYlpUDNHBLLL">
+  <div class="container" data-page-node-id="flEVOIme9omaHBG5kUilc7">
+    <div class="rv" data-page-node-id="pmyECSMIjNHL3pw64Lrwiv">
+      <div class="kicker" data-i18n="tech_kicker" data-page-node-id="pLGcVFsM1KvCIV4iGJ8XE6">Core Technology · 核心技术</div>
+      <h2 class="sec-title" data-i18n="tech_title" data-page-node-id="i4EQkpNlvmtHUHNiiB4922">四位一体，构成物理-数字信任闭环</h2>
+      <p class="sec-sub" data-i18n="tech_sub" data-page-node-id="gcYD9aEU5efQpQFTqyztIb">四项技术不是孤立的产品，而是一条完整的链路：从"信息如何隐形"，到"成像如何可读而不可复制"，再到"身份如何动态防伪"，最终"验证如何闭环成数据资产"。</p>
+    </div>
+    <div class="tech-grid" data-page-node-id="XOW8AI3LWCRSUeVadQFJ96">
+      <div class="tech-card rv" data-page-node-id="CCOnlqpldK5Y97HM9d4dbj">
+        <div class="tech-num" data-page-node-id="SIO5YyfQrCd97mYLU6q4q6">01 / IMAGING</div>
+        <h3 data-page-node-id="OsoQF1Nd43wVhk1op5PrV5">Scalyma 隐形成像</h3>
+        <div class="tech-en" data-page-node-id="TJ9ERxwYa1tDXXK8ICLvdR">Imaging Standard</div>
+        <p data-i18n="tech1" data-page-node-id="1vkhjvHleqz1BtCPm1Fq7U">印刷级隐形成像与加网优化标准：肉眼只见精美图文，手机镜头却能读出隐藏信息。激光制版取代电雕，兼容水性环保油墨，兼容胶印、柔印、凹印与数码印刷——零新增物料成本。</p>
+        <span class="tech-role" data-i18n="tech1_role" data-page-node-id="DAaWGHpoqCjOGv4neoMRz1">角色 · 成像底座</span>
+      </div>
+      <div class="tech-card rv" data-page-node-id="xbx4t9ONtyC1vpepwyvPGZ">
+        <div class="tech-num" data-page-node-id="t23qlaZuy28HE6cTPFkLW6">02 / HIDING</div>
+        <h3 data-page-node-id="PD1P6VXoubV0jRPdZT9XSa">DHIT 数码隐形图像</h3>
+        <div class="tech-en" data-page-node-id="3konwcNBT45xHHxG4ya78C">Digital Hidden Imaging Tech</div>
+        <p data-i18n="tech2" data-page-node-id="KYvTW58XkBvjO8bkL84Iow">基于图像高频分量与电磁频谱冗余区间的信息隐藏技术：图像、短码、URL、指令皆可隐形嵌入。肉眼不可见，手机摄像头+算法可读——整个体系的"隐形指纹"。</p>
+        <span class="tech-role" data-i18n="tech2_role" data-page-node-id="nmjiEiWDlIEIlshTXESnJC">角色 · 隐形信息层</span>
+      </div>
+      <div class="tech-card rv" data-page-node-id="YDC5r5jMianoOZDN3j8utw">
+        <div class="tech-num" data-page-node-id="rkRYba4bAirXaLvTXBSIgD">03 / IDENTITY</div>
+        <h3 data-page-node-id="Acef1RKhhxALAd0Kmz0rPJ">码中码® 动态身份</h3>
+        <div class="tech-en" data-page-node-id="JqCHjwYQyHKueyB3cn3qhc">Code-in-Code®</div>
+        <p data-i18n="tech3" data-page-node-id="zJQ9WX42jhTvXSsLFpoBNC">唯一 QR 主码 + 隐藏微码（两组 12–16 位混合码）+ 动态对应算法。时间、设备、地区、批次、物理纹理五重偏移让映射关系每次验证都重算——复制外壳容易，复制行为不可能。</p>
+        <span class="tech-role" data-i18n="tech3_role" data-page-node-id="oWvJhkj2QlCVGxeJJvcWk0">角色 · 身份与算法</span>
+      </div>
+      <div class="tech-card rv" data-page-node-id="seGWDzYtkUXFhw9K2lXjyF">
+        <div class="tech-num" data-page-node-id="pddWbFSsQ0rXxPdqELpqOQ">04 / VERIFY</div>
+        <h3 data-page-node-id="PVVVRWZy6XAgjT3q7AQ6lu">Scan-EZ 智慧识别</h3>
+        <div class="tech-en" data-page-node-id="hp3RY4UYdvrNMv8PsTfizW">AI Recognition &amp; Verification</div>
+        <p data-i18n="tech4" data-page-node-id="NhDTxEcQxFHrBlhUa312ze">端侧 SDK（抗抖动、弱光增强、畸变矫正、离线缓存）+ 云端验证引擎（密钥托管、风控评分、证书签发）。一码多用多权限：消费者、品牌、政府、IP 市场各取所需。</p>
+        <span class="tech-role" data-i18n="tech4_role" data-page-node-id="e6ZFsi47AgN0upQpaKXLdL">角色 · 验证与数据闭环</span>
+      </div>
+    </div>
+
+    <div class="flow-diagram rv" data-page-node-id="i9hQi8TgyrSV6Kpai3dYSw">
+      <div class="flow-title" data-i18n="flow_title" data-page-node-id="wVzmp0WaNGFzxZyDmGJbwD">End-to-End Trust Pipeline · 端到端信任链路</div>
+      <svg viewBox="0 0 1000 170" id="flowSvg" data-page-node-id="PBq6rNO4NR0oQTn95JmMN1">
+        <defs data-page-node-id="Z844Eo34eJYmSRPWGG4SO7">
+          <linearGradient id="fg1" x1="0" y1="0" x2="1" y2="0" data-page-node-id="17mlWEP4WPpRJpDj8TV2Co">
+            <stop offset="0" stop-color="#185FA5" data-page-node-id="0Bz4uvhIq9sa6LKSVYqeQL"/><stop offset=".5" stop-color="#2E86C1" data-page-node-id="HEEQFBXJ4WQRuEtWVX99nk"/><stop offset="1" stop-color="#0F6E56" data-page-node-id="GOXfczVkpD1390jvSlOpyn"/>
+          </linearGradient>
+          <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto" data-page-node-id="lQ6oiv9yAA4jU8L3gO2Dcn"><path d="M0 0L10 5L0 10z" fill="#B08D57" data-page-node-id="VOjw1660ZS2WJ4GEtGuQ2Q"/></marker>
+        </defs>
+        <g font-family="Jost,'Noto Sans SC',sans-serif" data-page-node-id="0r0JwXsSH5Niutb2N74F8E">
+          <rect x="20" y="35" width="200" height="100" rx="12" fill="rgba(24,95,165,.16)" stroke="#185FA5" data-page-node-id="toft01YzmTp2tZWGBIi82z"/>
+          <text x="120" y="72" text-anchor="middle" fill="#fff" font-size="17" font-weight="400" data-svgi18n="flow_n1" data-page-node-id="uMyCUvDuYveZnP3MHrHN0W">SCALYMA 成像</text>
+          <text x="120" y="96" text-anchor="middle" fill="rgba(255,255,255,.5)" font-size="11.5" data-svgi18n="flow_n1s" data-page-node-id="7ct4MMRM0AClTiWysPr5nH">隐形承载 · 印刷即入口</text>
+          <line x1="222" y1="85" x2="258" y2="85" stroke="#B08D57" stroke-width="1.6" marker-end="url(#arrow)" data-page-node-id="LQO8AQF8jjATIecDi5DfYB"/>
+          <rect x="262" y="35" width="200" height="100" rx="12" fill="rgba(24,95,165,.16)" stroke="#2E86C1" data-page-node-id="BT1bEvN6EKOpYDT2i5xHfV"/>
+          <text x="362" y="72" text-anchor="middle" fill="#fff" font-size="17" font-weight="400" data-svgi18n="flow_n2" data-page-node-id="xqYlPYMmBLKRm4GRti6Rbp">DHIT 隐形信息</text>
+          <text x="362" y="96" text-anchor="middle" fill="rgba(255,255,255,.5)" font-size="11.5" data-svgi18n="flow_n2s" data-page-node-id="BRMUiZcEaQyvuA9qXX5Cfh">图像 / 短码 / 指令嵌入</text>
+          <line x1="464" y1="85" x2="500" y2="85" stroke="#B08D57" stroke-width="1.6" marker-end="url(#arrow)" data-page-node-id="Gn45vm40ZbHd0ifiHDgpIJ"/>
+          <rect x="504" y="35" width="200" height="100" rx="12" fill="rgba(24,95,165,.16)" stroke="#7db4e8" data-page-node-id="Eidc3FFkfG6n7x7EwtGCLW"/>
+          <text x="604" y="72" text-anchor="middle" fill="#fff" font-size="17" font-weight="400" data-svgi18n="flow_n3" data-page-node-id="VzLQKcCzi06SzOSwotANs1">码中码® 动态身份</text>
+          <text x="604" y="96" text-anchor="middle" fill="rgba(255,255,255,.5)" font-size="11.5" data-svgi18n="flow_n3s" data-page-node-id="EDuM2tAe22UsKl0YKBBLq7">主码 + 微码 + 动态映射</text>
+          <line x1="706" y1="85" x2="742" y2="85" stroke="#B08D57" stroke-width="1.6" marker-end="url(#arrow)" data-page-node-id="CdKdOKccvRU4ZrplCds0Er"/>
+          <rect x="746" y="35" width="204" height="100" rx="12" fill="rgba(15,110,86,.2)" stroke="#0F6E56" data-page-node-id="ODgma1k7iIIEsVuAyieBVV"/>
+          <text x="848" y="72" text-anchor="middle" fill="#fff" font-size="17" font-weight="400" data-svgi18n="flow_n4" data-page-node-id="dxZhErt3EdSctZ04oTAvb2">SCAN-EZ 验证</text>
+          <text x="848" y="96" text-anchor="middle" fill="rgba(255,255,255,.5)" font-size="11.5" data-svgi18n="flow_n4s" data-page-node-id="8JZizq6ukFBjjxnCHRTOaa">识读 · 风控 · 数据资产</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRINCIPLES ================= -->
+<section class="principles" id="principles" data-page-node-id="kpDFzdaUT4AD38dU30AgyT">
+  <div class="container" data-page-node-id="T394BysL6ixIWrM7gX9GZl">
+    <div class="rv" data-page-node-id="JZSGrLEC7tW4i10YpgHD4P">
+      <div class="kicker" data-i18n="pri_kicker" data-page-node-id="GddghziJKDEOROyzpNy9P5">How It Works · 技术原理</div>
+      <h2 class="sec-title" data-i18n="pri_title" data-page-node-id="FWqD336J48wmoQGt43LtWZ">看得见的原理，看不见的防线</h2>
+      <p class="sec-sub" data-i18n="pri_sub" data-page-node-id="pNiWKEjkSqWvQAkZyJqdF7">每一层安全都有坚实的数学与物理基础——不是营销话术，而是可以被工程验证的科学。</p>
+    </div>
+    <div class="tabs rv" role="tablist" data-page-node-id="ZTRtRxeoTleiXiQ6pg2cKS">
+      <button class="tab-btn active" data-tab="p1" data-i18n="pri_t1" data-page-node-id="MEkmo3AjVpsfh4SrQ3Czsf">① 奈奎斯特采样成像</button>
+      <button class="tab-btn" data-tab="p2" data-i18n="pri_t2" data-page-node-id="nhOU9KKOrZC2bau0Rwo5zy">② 频域信息隐藏</button>
+      <button class="tab-btn" data-tab="p3" data-i18n="pri_t3" data-page-node-id="YpRvkf7Z064M4UQvgSpvdG">③ 动态映射算法</button>
+      <button class="tab-btn" data-tab="p4" data-i18n="pri_t4" data-page-node-id="5lX7AT5laJwEIUVKTIpOcq">④ 四层安全体系</button>
+    </div>
+
+    <div class="tab-panel active" id="p1" data-page-node-id="5zcNhVCjsbzFrU6hnPdOYI">
+      <div data-page-node-id="n8JpstZ3o5wDp6IXHjZMlP">
+        <h3 data-i18n="pri1_h" data-page-node-id="inMTZVPjMO8f3cKbsYcaFJ">手机为什么能"看见"人眼看不见的信息？</h3>
+        <p data-i18n="pri1_p1" data-page-node-id="UDBvSJIPoPj9gCLZVBLiFg">Scalyma 遵循奈奎斯特采样定理：只有当手机镜头的空间采样频率 ≥ 隐藏信息最高空间频率的 2 倍时，隐藏信息才能被完整、稳定地还原。人眼的分辨率天然低于这一阈值——所以信息对人隐形，对机器清晰。</p>
+        <div class="formula" data-page-node-id="7aeHWhIB2uIHuVRuwE5lUi">f<sub data-page-node-id="GkgqT6evTQvND4lSmD6Gpp">sample</sub> ≥ 2 × f<sub data-page-node-id="1vECHwrnyc0qR1iMzOaung">hidden,max</sub> （Nyquist–Shannon）</div>
+        <p data-i18n="pri1_p2" data-page-node-id="lOfbxpgcDzBmkkrAb0C1mu">这意味着隐藏信息不是"碰运气能扫到"，而是在物理上被保证可读；同时制版端通过加网优化控制信噪比与频谱分布，兼顾视觉美感与机器可读性。</p>
+      </div>
+      <div class="tab-visual" data-page-node-id="NkUjoMduiAumgyNYq5p0Pn">
+        <svg viewBox="0 0 460 260" data-page-node-id="4BnPIN1L9URQr3QdRudbx5">
+          <g font-family="IBM Plex Mono,monospace" font-size="10" fill="rgba(255,255,255,.55)" data-page-node-id="uMxrgOmofLIusXbt6eDhnW">
+            <path d="M20 210 L440 210" stroke="rgba(255,255,255,.25)" data-page-node-id="vHE0LcazIo7cEzZ9sbjiS0"/>
+            <path d="M20 210 L20 30" stroke="rgba(255,255,255,.25)" data-page-node-id="khX5hTH57gYt5xFQjiYucT"/>
+            <path d="M20 210 C 80 90, 140 90, 200 150 S 320 230, 440 60" fill="none" stroke="#7db4e8" stroke-width="2.2" data-page-node-id="Hcei0xDwupNgfolXtVDlIh"/>
+            <g fill="#fff" data-page-node-id="P0MVTt6xXdZHkXSgXvDcgh">
+              <circle cx="60" cy="131" r="3.4" data-page-node-id="Zas1Dtwh8v1GBZmRBPrxbi"/><circle cx="100" cy="105" r="3.4" data-page-node-id="SmyXRX902KcEuhdDj6SREg"/><circle cx="140" cy="109" r="3.4" data-page-node-id="wCMav2yIGwcdAzxSwSliU1"/><circle cx="180" cy="137" r="3.4" data-page-node-id="EWGyrWvsjh5fboqo7B3dXg"/><circle cx="220" cy="172" r="3.4" data-page-node-id="AZztTwpnZcCCkp2RFYDzFb"/><circle cx="260" cy="196" r="3.4" data-page-node-id="rxo3K4sOPdknH1LOghSzsx"/><circle cx="300" cy="196" r="3.4" data-page-node-id="f7jsJdB5OXQgyltBGy3ljl"/><circle cx="340" cy="163" r="3.4" data-page-node-id="wdKmJPT4MEjw9dM7RYBzud"/><circle cx="380" cy="110" r="3.4" data-page-node-id="0sroHmWgsDAkJhfYeGKlNn"/><circle cx="420" cy="70" r="3.4" data-page-node-id="fXXMVhf6Zjst2jFIiALgXz"/>
+            </g>
+            <line x1="230" y1="30" x2="230" y2="210" stroke="#B08D57" stroke-dasharray="5 5" data-page-node-id="AhLnYeJGW9T5jNu4G5t39r"/>
+            <text x="238" y="44" fill="#B08D57" data-page-node-id="DCpMMCzH8Hw8FFJnETqZFk">Nyquist ×2</text>
+            <text x="24" y="226" data-page-node-id="eGlSMJhVgxCPGDXWLBeUTd">eye resolution →</text>
+            <text x="330" y="226" fill="#7db4e8" data-page-node-id="QiUrvT5J8Sgo5JRxC5D27b">camera sampling →</text>
+            <text x="26" y="46" fill="#fff" font-size="12" data-page-node-id="YNH6VFb1MvtBrXHMjyT8XH">f(空间频率)</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="p2" data-page-node-id="MswTeefGH3MQZsN5HFgAWL">
+      <div data-page-node-id="7zdZ7MC8GmbDJ9uOxDgqF4">
+        <h3 data-i18n="pri2_h" data-page-node-id="lOzgoi5FdYQCGWEICeXaB3">信息藏在图像的"频率夹层"里</h3>
+        <p data-i18n="pri2_p1" data-page-node-id="MLoEvRMK1ODhkI6o2YjCRx">DHIT 利用图像高频分量与电磁频谱冗余区间嵌入信息：人眼视觉系统（HVS）对特定高频纹理不敏感，而手机 CMOS 传感器+解码算法可以精确提取。</p>
+        <p data-i18n="pri2_p2" data-page-node-id="u8Hr4LNBbjR9HgGtEc6phI">承载内容不限于图形——图像、短码、URL、控制指令皆可隐形嵌入印刷品、屏幕甚至装饰面板，且不新增油墨、不改动产线、不加贴标签。</p>
+        <div class="formula" data-page-node-id="d1lTMAhZYuV390LCN6ykel">I'(x,y) = I(x,y) + α · m(x,y) · W(x,y)</div>
+        <p data-i18n="pri2_p3" data-page-node-id="S0ghPTRVI9CaisvcBK2SUA">其中 W 为满足视觉掩蔽特性的隐形水印函数，α 控制嵌入强度——在"肉眼不可见"与"机器稳定读出"之间取得工程平衡。</p>
+      </div>
+      <div class="tab-visual" data-page-node-id="7j4ikG4lbZ07C5wPLpYU5a">
+        <svg viewBox="0 0 460 260" data-page-node-id="NsqW0dZphNWcZbGLUQBS6h">
+          <g data-page-node-id="yXFZbNp2BALJJq33tn3YCG">
+            <rect x="30" y="40" width="180" height="180" rx="10" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.3)" data-page-node-id="62Xz6jyCiTl39I2DgkGoFI"/>
+            <g fill="rgba(255,255,255,.5)" data-page-node-id="pluIBoVrYSOaufic2qHV5j">
+              <circle cx="60" cy="70" r="2" data-page-node-id="IjJyWzbef1rHTjao1zX04s"/><circle cx="80" cy="70" r="2" data-page-node-id="WoDz4LKad49DK62SdsIJOH"/><circle cx="100" cy="70" r="2" data-page-node-id="cIV4I7BxycdPsCbEYMqtaB"/><circle cx="120" cy="70" r="2" data-page-node-id="G5yoOs0SRBCD17A29AGhmT"/><circle cx="140" cy="70" r="2" data-page-node-id="k61gAdeL16FpTHZTF3phlo"/><circle cx="160" cy="70" r="2" data-page-node-id="IshcUxBZDkCUPLcNeaTPOC"/><circle cx="180" cy="70" r="2" data-page-node-id="uorErAvNlzbGrwdXNO0nS2"/>
+              <circle cx="60" cy="90" r="2" data-page-node-id="XNDfE62pHphCIq17RreFWF"/><circle cx="100" cy="90" r="2" data-page-node-id="cIYFTKrBomHuXmaccFhTOk"/><circle cx="140" cy="90" r="2" data-page-node-id="8f4VNXet9z5pMEJEZKnQTa"/><circle cx="180" cy="90" r="2" data-page-node-id="goujjFdjkb3PQ7iPUgAQdN"/>
+              <circle cx="60" cy="110" r="2" data-page-node-id="zD3L1jCL9Xr5eke0CDQ75x"/><circle cx="80" cy="110" r="2" data-page-node-id="EbhMcxm8k8ZSdAKC9vXXaR"/><circle cx="120" cy="110" r="2" data-page-node-id="CuX2SBnDFKH1AHH21PrAxe"/><circle cx="160" cy="110" r="2" data-page-node-id="nymGasurlBpogZ68DzB23Z"/>
+              <circle cx="60" cy="130" r="2" data-page-node-id="LEXdsdMGCh5SWluPSSoNC4"/><circle cx="100" cy="130" r="2" data-page-node-id="Wm8E3v3vyLSBOlM6YSOPFC"/><circle cx="140" cy="130" r="2" data-page-node-id="3xiZtRDzwUmL2yDErF98sG"/><circle cx="180" cy="130" r="2" data-page-node-id="cPslJaGM5q1ifyUifOSc0T"/>
+              <circle cx="80" cy="150" r="2" data-page-node-id="J05xL3PnHH9CSnwYBFX4n5"/><circle cx="120" cy="150" r="2" data-page-node-id="uGknx0Eju8JKGRArZZuaPq"/><circle cx="160" cy="150" r="2" data-page-node-id="KyP5LlCmwgPZ0MOF9bc2g9"/>
+              <circle cx="60" cy="170" r="2" data-page-node-id="zHkM9u4KwxGGHXWdvRsSIG"/><circle cx="100" cy="170" r="2" data-page-node-id="O2NGrgG87RQB2xRBUA1ckM"/><circle cx="140" cy="170" r="2" data-page-node-id="NGM31o40wlPqilgoFozscl"/><circle cx="180" cy="170" r="2" data-page-node-id="3FOchpBKaNcruZINOrHwIo"/>
+              <circle cx="80" cy="190" r="2" data-page-node-id="ja4QUbirrRO78jKtWvx1t6"/><circle cx="120" cy="190" r="2" data-page-node-id="vTLzF2RzrWezMtRGrzVKv4"/><circle cx="160" cy="190" r="2" data-page-node-id="ETLmZE5hub49CpP1PuHu56"/>
+            </g>
+            <text x="120" y="242" text-anchor="middle" fill="rgba(255,255,255,.55)" font-family="IBM Plex Mono" font-size="10" data-svgi18n="svg_eye" data-page-node-id="1UhlXPe6wdp4UobnJxcBxr">HUMAN EYE · 肉眼所见</text>
+            <rect x="250" y="40" width="180" height="180" rx="10" fill="rgba(79,179,232,.1)" stroke="#4FB3E8" data-page-node-id="iBJXZ7gyew1c4LGESomYOb"/>
+            <path d="M340 130 m-28 0 a28 28 0 1 0 56 0 a28 28 0 1 0 -56 0" fill="none" stroke="#4FB3E8" stroke-width="2" data-page-node-id="LZDTC7lSjG3MPv8PkXGMhh"/>
+            <g fill="#4FB3E8" font-family="IBM Plex Mono" font-size="9" data-page-node-id="xsLQaf6eWIL2n2q8EhRdli">
+              <text x="304" y="112" fill="#0A1E33" data-page-node-id="DzC81aQciWJq0CWKGvEk4f">10110</text><text x="330" y="122" fill="#0A1E33" data-page-node-id="59pgQ7HfCVHGZj2aL1LElF">01101</text><text x="322" y="146" fill="#0A1E33" data-page-node-id="gUzmqhoGC28AOWzztsjcRD">11010</text><text x="304" y="158" fill="#0A1E33" data-page-node-id="BzJyT4XCfyhOntuLxK2vD5">00111</text>
+            </g>
+            <text x="340" y="242" text-anchor="middle" fill="#4FB3E8" font-family="IBM Plex Mono" font-size="10" data-svgi18n="svg_cam" data-page-node-id="Cz7KHAOwxM6c3PHg5fYBDA">CAMERA · 镜头所见</text>
+            <path d="M216 130 L244 130" stroke="#B08D57" stroke-width="1.6" marker-end="url(#arrow)" data-page-node-id="0NOg5Qedr49tiZ7qhsYuq1"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="p3" data-page-node-id="OsDKJT3Q1t5uBnFzyKUSVy">
+      <div data-page-node-id="yNEGxGJKFcrTBZE1Hrnqta">
+        <h3 data-i18n="pri3_h" data-page-node-id="cx9Bk4Wrb2hMSGGz4gonGi">五重动态来源，让伪造成本提升数百倍</h3>
+        <p data-i18n="pri3_p1" data-page-node-id="Xkhu2CS1AFP54QK3ywiqnR">码中码® 的灵魂是动态对应算法：内码与外码的映射关系不是固定的，而是由五个变量实时计算——即使外码被完美复制，伪造者也无法预测下一次验证的结果。</p>
+        <div class="formula" data-page-node-id="qWvuhL1it18QO327PXPudK">f( 时间偏移 · 设备指纹 · 地区偏移 · 批次偏移 · 物理纹理绑定 ) → 映射密钥</div>
+        <p data-i18n="pri3_p2" data-page-node-id="BHzvbHwARDZyVbCGf1eBfQ">两组 12–16 位混合内码，安全强度接近 AES-128 等级。"真品的行为"永远无法被模仿——这就是从"静态防伪"到"动态信任"的跃迁。</p>
+      </div>
+      <div class="tab-visual" data-page-node-id="SFCdReBuitJacq37wSkQy7">
+        <svg viewBox="0 0 460 260" data-page-node-id="ZOhLf0EeHsIF7wc3UaMZB8">
+          <g font-family="Jost,'Noto Sans SC',sans-serif" data-page-node-id="6hzWCgDNwQaoEHmV3kHaIo">
+            <rect x="150" y="100" width="160" height="60" rx="30" fill="none" stroke="#B08D57" stroke-width="1.6" data-page-node-id="JAieBKJbYIDHXLDPXw91Dj"/>
+            <text x="230" y="126" text-anchor="middle" fill="#fff" font-size="14" data-svgi18n="svg_algo" data-page-node-id="V8ZI2MpFv4YFJOcvcPAcFL">动态映射算法</text>
+            <text x="230" y="146" text-anchor="middle" fill="rgba(255,255,255,.5)" font-size="9.5" font-family="IBM Plex Mono" data-page-node-id="J00wpvLSMrriyuF0fxgE5U">f(t, d, r, b, p) → key</text>
+            <g font-size="11" fill="rgba(255,255,255,.85)" data-page-node-id="B5yv8JYeSvaJM6Cm9mQugP">
+              <rect x="20" y="20" width="120" height="34" rx="17" fill="rgba(24,95,165,.2)" stroke="#185FA5" data-page-node-id="vMvdj2YvgaxMINY68JjZMP"/><text x="80" y="42" text-anchor="middle" data-svgi18n="svg_s1" data-page-node-id="11ZvPmbszReCsjb5LkYD9k">时间偏移</text>
+              <rect x="20" y="72" width="120" height="34" rx="17" fill="rgba(24,95,165,.2)" stroke="#185FA5" data-page-node-id="fSMRg3MdGACcotBJ70qAPh"/><text x="80" y="94" text-anchor="middle" data-svgi18n="svg_s2" data-page-node-id="SclOSZ0w0WBWdAxTCWsUNc">设备指纹</text>
+              <rect x="20" y="124" width="120" height="34" rx="17" fill="rgba(24,95,165,.2)" stroke="#185FA5" data-page-node-id="bBsPXSPMQVEH0giyQS1rTR"/><text x="80" y="146" text-anchor="middle" data-svgi18n="svg_s3" data-page-node-id="5HSq9lY8UgBJEwBgbms1Ah">地区偏移</text>
+              <rect x="320" y="20" width="120" height="34" rx="17" fill="rgba(24,95,165,.2)" stroke="#185FA5" data-page-node-id="tdzrNzhRkDeIVJjKNvsyzF"/><text x="380" y="42" text-anchor="middle" data-svgi18n="svg_s4" data-page-node-id="TW8DNAK2uURTIDYOPJCtKm">批次偏移</text>
+              <rect x="320" y="72" width="120" height="34" rx="17" fill="rgba(24,95,165,.2)" stroke="#185FA5" data-page-node-id="N2PndXoKOaCYKnZC03whDs"/><text x="380" y="94" text-anchor="middle" data-svgi18n="svg_s5" data-page-node-id="yO4743bwIZCJzNwUDFKqae">物理纹理绑定</text>
+              <path d="M140 37 C 165 55, 165 75, 168 98" fill="none" stroke="rgba(176,141,87,.6)" data-page-node-id="PojdMVZba7OePVMnuYlpAw"/>
+              <path d="M140 89 C 155 95, 158 100, 162 105" fill="none" stroke="rgba(176,141,87,.6)" data-page-node-id="yGcqJJdzTXguXi5M1VLmls"/>
+              <path d="M140 141 L 150 133" stroke="rgba(176,141,87,.6)" data-page-node-id="Tg5mlZAaRd1hOEADSd80dU"/>
+              <path d="M320 37 C 295 55, 295 75, 292 98" fill="none" stroke="rgba(176,141,87,.6)" data-page-node-id="hn6BPJoINVoruSiud9iTtm"/>
+              <path d="M320 89 C 305 95, 302 100, 298 105" fill="none" stroke="rgba(176,141,87,.6)" data-page-node-id="m6lFaHqGfz7bmE6tmFlJa4"/>
+            </g>
+            <path d="M230 160 L230 190" stroke="#0F6E56" stroke-width="1.6" marker-end="url(#arrow)" data-page-node-id="S8ownGUILNGiZAFdSbUtOs"/>
+            <rect x="130" y="192" width="200" height="38" rx="19" fill="rgba(15,110,86,.22)" stroke="#0F6E56" data-page-node-id="ntEhIBiXoRaVMOzGelsNgW"/>
+            <text x="230" y="216" text-anchor="middle" fill="#7dd0b5" font-size="12" data-svgi18n="svg_out" data-page-node-id="kDZA5U0zEOG9LUSRnjA06y">每次验证 → 全新密钥</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="p4" data-page-node-id="v8NHl3ATwbGc9VlE9LIo3e">
+      <div data-page-node-id="aqx2satIbsEIqGzSO340Ky">
+        <h3 data-i18n="pri4_h" data-page-node-id="1ezRWc7MG24t2Jex48PBLV">四层纵深防御，环环相扣</h3>
+        <p data-i18n="pri4_p1" data-page-node-id="yzUTBY9j1OS9OVBm0SXNp4">以 DHIT 四层安全技术为代表，整个体系构成纵深防御：可见人像层（品牌视觉）→ 隐藏 LOGO 层（品牌暗记）→ 可隐藏图像层（场景信息）→ DHIT 解码层（密钥信息）。</p>
+        <p data-i18n="pri4_p2" data-page-node-id="0AGxsXbyw5FVVQfnXU2OHR">攻击者必须同时突破物理成像、频域隐藏、动态算法与云端风控四道独立防线——任一层被触动，云端引擎即刻感知并记录取证。</p>
+      </div>
+      <div class="tab-visual" data-page-node-id="FE6vU485Qi45VVFfhvefZg">
+        <svg viewBox="0 0 460 260" data-page-node-id="RxUyVyJuALgYU7a9gYHvGG">
+          <g font-family="Jost,'Noto Sans SC',sans-serif" font-size="12" data-page-node-id="3s1768FXNXuS3Uv0IlaADG">
+            <rect x="90" y="24" width="280" height="46" rx="10" fill="rgba(255,255,255,.1)" stroke="rgba(255,255,255,.35)" data-page-node-id="wbwAwgWNgIjeI0nCAIF0cJ"/><text x="230" y="52" text-anchor="middle" fill="#fff" data-svgi18n="svg_l1" data-page-node-id="7x9BUgoSeFBA7vVkpsz37W">L1 · 可见人像层（品牌视觉）</text>
+            <rect x="70" y="80" width="320" height="46" rx="10" fill="rgba(125,180,232,.14)" stroke="#7db4e8" data-page-node-id="hd6auCTPsfckEJx3WVzD6X"/><text x="230" y="108" text-anchor="middle" fill="#dbe9f7" data-svgi18n="svg_l2" data-page-node-id="udGAf0lydYC3vfkil9yb4H">L2 · 隐藏 LOGO 层（品牌暗记）</text>
+            <rect x="50" y="136" width="360" height="46" rx="10" fill="rgba(24,95,165,.24)" stroke="#185FA5" data-page-node-id="t4E7iP534lw5XyHjUMa3a7"/><text x="230" y="164" text-anchor="middle" fill="#cfe2f5" data-svgi18n="svg_l3" data-page-node-id="oTwe3AsB0Ab7oECa2cEK0C">L3 · 可隐藏图像层（场景信息）</text>
+            <rect x="30" y="192" width="400" height="46" rx="10" fill="rgba(176,141,87,.2)" stroke="#B08D57" data-page-node-id="tWWb8XA1nYEyv0rJqnpnec"/><text x="230" y="220" text-anchor="middle" fill="#f0dfc6" data-svgi18n="svg_l4" data-page-node-id="pDKHkoVlCm66I9ZyXV0i9e">L4 · DHIT 解码层（核心密钥）</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ADVANTAGES ================= -->
+<section class="dark" id="advantage" style="background:var(--midnight)" data-page-node-id="7EPD8CIGYCooor52bxDgeZ">
+  <div class="container" data-page-node-id="n7ErAJZ6HhrKvhViKft4YT">
+    <div class="rv" data-page-node-id="zfDVtxN8TaPwFhYDi6yHgH">
+      <div class="kicker" style="color:var(--champagne)" data-i18n="adv_kicker" data-page-node-id="IoAQi7bXVx4Os9UQ0y1QEW">Why Us · 核心优势</div>
+      <h2 class="sec-title" data-i18n="adv_title" data-page-node-id="gAUeD4EE5wBhLsK56d6x1H">三大技术优势，重新定义产品身份</h2>
+      <p class="sec-sub" data-i18n="adv_sub" data-page-node-id="sDy5Fb1uORC3gPF8xCcEDM">围绕数字安全接口、物理与数字对接互动、手机检测三大方向，形成对手难以逾越的体系性壁垒。</p>
+    </div>
+    <div class="adv-grid" data-page-node-id="9auOyAOSjE9ZkGYtciUysR">
+      <div class="adv-card rv" data-page-node-id="rh9ibgaLLtlOIIKfQjBIk4">
+        <div class="adv-icon" data-page-node-id="4rO9Qgvg0GdmZBay8p9mHd"><svg viewBox="0 0 24 24" data-page-node-id="FhfZ1IKVejwHKCRulG8luE"><rect x="4" y="10" width="16" height="10" rx="2" data-page-node-id="IgXpVWeIEgUJutbWBTuWE5"/><path d="M8 10V7a4 4 0 0 1 8 0v3" data-page-node-id="Iy5Myr7KUALOj8SgC7WwLj"/></svg></div>
+        <h3 data-i18n="adv1_h" data-page-node-id="9ouqvxfzM5GVwdARn7sIb8">数字安全接口</h3>
+        <p data-i18n="adv1_p" data-page-node-id="DSrExr4DsJsGrS8O6sbk1K">每一件产品都是品牌与世界的加密接口：物理载体即密钥，验证即握手。动态映射 + 云端风控 + 行为风险评分（0–100）+ 证书签发，构成完整的接口级安全体系，支撑确权、用权、维权、行权、知权、执权、授权七大权利落地。</p>
+      </div>
+      <div class="adv-card rv" data-page-node-id="NGjIMHakaALqrU4ecPzmeb">
+        <div class="adv-icon" data-page-node-id="LCOX9fapAytYCiAsDv8Jkj"><svg viewBox="0 0 24 24" data-page-node-id="MPbVIuTrHRpJctfVeLR5GC"><path d="M7 8 3 12l4 4M17 8l4 4-4 4M13 5l-2 14" data-page-node-id="u91RT9Bi9XLaijMmG9fiS9"/></svg></div>
+        <h3 data-i18n="adv2_h" data-page-node-id="eUMV9KKNQvWjC9BtZDdbn9">物理 × 数字对接互动</h3>
+        <p data-i18n="adv2_p" data-page-node-id="3S2yq2pPGtl0sYwhRn2SJ1">包装不再是成本中心，而是流量入口与变现资产：扫一扫即达会员、营销、溯源、复购。五重动态偏移让每一次物理接触都产生独一无二的数字事件——品牌由此获得 D2C 数据资产与渠道洞察。</p>
+      </div>
+      <div class="adv-card rv" data-page-node-id="hllE8WY8rbWiQhOGpV0BWG">
+        <div class="adv-icon" data-page-node-id="MF2B4wNbbniLdsTp7uDmM7"><svg viewBox="0 0 24 24" data-page-node-id="qisoHmcilAtXAVQq8IbAtE"><rect x="6" y="2" width="12" height="20" rx="2" data-page-node-id="OCJheMa4D32SPAa7MpaNqP"/><path d="M11 18h2" data-page-node-id="LRXNLCX9WcGtcBwM4CU0on"/><circle cx="12" cy="11" r="3" data-page-node-id="5DLrCwc1WwLyqhdtoXbcjC"/></svg></div>
+        <h3 data-i18n="adv3_h" data-page-node-id="tVnkpEihtyJABdtsUSDEIi">手机即检测仪</h3>
+        <p data-i18n="adv3_p" data-page-node-id="g57AAwiASyDqoysdTbJpkq">无需专用设备：奈奎斯特采样保障让任何主流手机镜头都是"检测仪"。端侧 SDK 抗抖动、弱光增强、畸变矫正、离线缓存，普通消费者 1 秒完成验真——防伪能力第一次真正到达每个终端。</p>
+      </div>
+    </div>
+
+    <div class="cmp-wrap rv" data-page-node-id="eCbVBMXeunvtfIrXERUIAA">
+      <table data-page-node-id="fy75Ia3EPlvyEQ8HqWnvO9">
+        <thead data-page-node-id="92tPlucHd0NnfDxDEVQ029"><tr data-page-node-id="ZHXFdVG7kCaTYur9EwHYNU">
+          <th data-i18n="cmp_dim" data-page-node-id="MURN1yRshrB12QFQNtjqhs">对比维度</th>
+          <th data-i18n="cmp_qr" data-page-node-id="kPE1s6wnfOAk1muO73E9or">传统二维码 / 一物一码</th>
+          <th data-i18n="cmp_nfc" data-page-node-id="AZuutVmtJNGGuZX4wgOVOv">NFC / RFID 标签</th>
+          <th data-page-node-id="NuG8I7eiwLYZY3E8M8D9MX">SCALYMA 体系</th>
+        </tr></thead>
+        <tbody data-page-node-id="3ME1ODHPdMcqCd6UFSnrLF">
+          <tr data-page-node-id="G20DNC1iTtgSYwuLu0AM7f"><td data-i18n="cmp_r1" data-page-node-id="mVaeBW1UTIVCWfJoYvFtHe">复制难度</td><td class="no" data-i18n="cmp_r1a" data-page-node-id="ysnANTofGG5c5agMwebSkK">图案可被整体复制</td><td data-i18n="cmp_r1b" data-page-node-id="KmHSINRf7Se9nJKmCvIfqn">芯片可被转借/克隆</td><td class="yes" data-i18n="cmp_r1c" data-page-node-id="BlNHNllUmP5nI2MjyzCJ3F">动态映射+物理纹理，行为不可复制</td></tr>
+          <tr data-page-node-id="mEtBd1KZhLvjaVwQu0jssf"><td data-i18n="cmp_r2" data-page-node-id="qzp1jACmIMHStTiot6eCS4">视觉影响</td><td data-i18n="cmp_r2a" data-page-node-id="ihNeE405wGCC0TlfPkzmHY">占用版面</td><td class="no" data-i18n="cmp_r2b" data-page-node-id="qqJSpiwfyNklG9v1lqMriS">需加贴标签</td><td class="yes" data-i18n="cmp_r2c" data-page-node-id="lFW7j8jKM4BroPmnA1sFkR">完全隐形，零视觉侵入</td></tr>
+          <tr data-page-node-id="nOfOoyn6pFG4F0VhMKPNMN"><td data-i18n="cmp_r3" data-page-node-id="Qa2UWkH9mN2CA7sTu39Abn">新增成本</td><td class="yes" data-i18n="cmp_r3a" data-page-node-id="eKH0gY6MOzEETh9PBi0Yej">低</td><td class="no" data-i18n="cmp_r3b" data-page-node-id="ufTAhLE2WuHBDi5HyuCukg">每件标签成本</td><td class="yes" data-i18n="cmp_r3c" data-page-node-id="tSwGNRf9G5pmHuo3LWQg5I">零新增物料，纯数码制版</td></tr>
+          <tr data-page-node-id="3QrCZDMvurUvSbP3ZgDNWD"><td data-i18n="cmp_r4" data-page-node-id="9tXK8CR1EEHnwahPSLrDre">检测方式</td><td data-i18n="cmp_r4a" data-page-node-id="XwYQ0TNXBLxGDFUUCI2LsF">手机扫码</td><td class="no" data-i18n="cmp_r4b" data-page-node-id="5FXfsM0ApG47UZI83plFeF">需专用读写器</td><td class="yes" data-i18n="cmp_r4c" data-page-node-id="XpvQvm74ZZFftA9D8QRdPV">任意手机镜头即检</td></tr>
+          <tr data-page-node-id="cQsN55GLiAi9BrcIwYrXcm"><td data-i18n="cmp_r5" data-page-node-id="DV9zCXaVDHyaDHhWZKV2ES">数据能力</td><td data-i18n="cmp_r5a" data-page-node-id="02D6rMrzRlSJqzMsBo9SOd">扫码记录</td><td data-i18n="cmp_r5b" data-page-node-id="B9D9JQBLE6fHSmkcFYaRsL">近场读取</td><td class="yes" data-i18n="cmp_r5c" data-page-node-id="jrms08GRkF09cpMRMYsYu2">多维事件流+风险评分+证书签发</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ================= APPLICATIONS ================= -->
+<section class="apps" id="applications" data-page-node-id="zyITESuZSr4jLUNrlP2HRL">
+  <div class="container" data-page-node-id="p1IP6tiLTaDuePB6sIzqQ0">
+    <div class="rv" data-page-node-id="XKKmmlfBCTTjDcRgkKF2CP">
+      <div class="kicker" data-i18n="app_kicker" data-page-node-id="UFnxOLwVo8YB3pa3NUKNDj">Applications · 应用场景</div>
+      <h2 class="sec-title" data-i18n="app_title" data-page-node-id="kV4a67IiLU6QBizNV4e8ar">从高端白酒到潮玩 IP，无处不在的产品身份</h2>
+      <p class="sec-sub" data-i18n="app_sub" data-page-node-id="6Mn3q2sP5dTlj1VfOoQQdn">已服务与对接的行业方向：酒类、快消、潮玩收藏、烟草监管、政府溯源、药品追溯、艺术品鉴定等。</p>
+    </div>
+    <div class="app-grid" data-page-node-id="s8L2qtk94akYqjFDyIwMvx">
+      <div class="app-card rv" data-page-node-id="QPAqG4RWekMg8dXv4t2lOe"><div class="app-tag" data-page-node-id="ALv2rWxmi1nWfpknk4vwUI">LIQUOR · 高端酒类</div><h3 data-i18n="app1_h" data-page-node-id="D5KDVkeSHQFICE0fF5NDCn">名酒防伪溯源</h3><p data-i18n="app1_p" data-page-node-id="kRjxClnGCHePEfRs8JcvcB">瓶封烫金标志 + 动态身份：茅台级场景的"开瓶验真、瓶瓶溯源"，黄牛窜货一目了然。</p></div>
+      <div class="app-card rv" data-page-node-id="R15qz6x1AEsenTbbbC60DW"><div class="app-tag" data-page-node-id="OAy5VZMX84LrBmG1ztTXZf">FMCG · 快消</div><h3 data-i18n="app2_h" data-page-node-id="9mYPrLjV7UmukbxsESfCCx">快消品互动营销</h3><p data-i18n="app2_p" data-page-node-id="Ql5klfn1Eod2IhM4TOYqbL">瓶身/包装即入口：扫码抽奖、会员积分、一物一码营销，让每次购买变成数字触点。</p></div>
+      <div class="app-card rv" data-page-node-id="pkzoZf6cL4KD7bO4Ev8aAn"><div class="app-tag" data-page-node-id="aQtd9jY572eIXj9NSvIf1u">TOYS & IP · 潮玩收藏</div><h3 data-i18n="app3_h" data-page-node-id="BYc9Ztqqw9n9Rhqr4jrPcq">潮玩 IP 确权</h3><p data-i18n="app3_p" data-page-node-id="HYCBgsxAzEBi8TWuHZadUh">盲盒、限量手办、球星卡：隐形确权 + 数字证书 + 二手流转背书，正品身份随物流转。</p></div>
+      <div class="app-card rv" data-page-node-id="tEFUUQHF8kkjDrHqN9GE23"><div class="app-tag" data-page-node-id="2hc3H7J1t3uhNNTEnHZHhG">TOBACCO · 烟草监管</div><h3 data-i18n="app4_h" data-page-node-id="qRcQ5jBjJPD3ln8NBmuAYO">烟草行业监管</h3><p data-i18n="app4_p" data-page-node-id="mVgQtErs2UbCl85c9VFdzl">条包级隐形标识 + 渠道数据回流，支撑工业公司与商业公司全链路数字化监管。</p></div>
+      <div class="app-card rv" data-page-node-id="rlANcG1tLDbTSA8r5W8Cmc"><div class="app-tag" data-page-node-id="khKjZbCFep0RxNBgArxSCK">GOVERNMENT · 政府溯源</div><h3 data-i18n="app5_h" data-page-node-id="AZGWax0PnPnzEidk6XhqUi">政府监管与区域品牌</h3><p data-i18n="app5_p" data-page-node-id="XPnleCDCpBdsFLjmbNNVe5">区域公用品牌（如"圳品"）全程溯源，执法取证包一键调取，监管有据、消费者放心。</p></div>
+      <div class="app-card rv" data-page-node-id="z7KVMp0L0Q0HGiTwYPqMNW"><div class="app-tag" data-page-node-id="BLdhY4XeflXf84yCBtpEsB">LUXURY & ART · 奢品艺术</div><h3 data-i18n="app6_h" data-page-node-id="iS8SgWLKaU8vTGmSxHyoEC">奢侈品与艺术品鉴定</h3><p data-i18n="app6_p" data-page-node-id="eaUSvJP99FQdFBOIJnqgBe">香槟金烫金标志 + 隐形密钥：从名表名包到艺术原作，物理载体自带"出厂身份"。</p></div>
+    </div>
+
+    <div class="rights-bar rv" data-page-node-id="okO2QKaxIQwjbbjSBFrHGR">
+      <h3 data-i18n="rights_h" data-page-node-id="Q3eHMZHK412utw3eGvqmVx">一物七权 —— 产品数字身份的权利体系</h3>
+      <div class="rights-list" data-page-node-id="BlB2Ii4bGlEpfHO1nylK5k">
+        <span data-page-node-id="1N7BDEd2abmnzYL8ia26aA"><b data-page-node-id="ytGSEtJWHYxvDLcjKamBTB">①</b> <span data-i18n="r1" data-page-node-id="QQDMtkoWHSgwFV9dHP9ajq">确权</span></span>
+        <span data-page-node-id="IirttEXIHGsdYolYPw06Cl"><b data-page-node-id="51Ij3fCL84N5z1oPdBQf2I">②</b> <span data-i18n="r2" data-page-node-id="KR64JCSKckG3kLJ7e2nkzY">用权</span></span>
+        <span data-page-node-id="EPBuQK8Qkbd8bltGtUBHM8"><b data-page-node-id="MRWbcxhfegctzTRzNzFxIH">③</b> <span data-i18n="r3" data-page-node-id="jazZEqMGxPfIW0PHbsDYi7">维权</span></span>
+        <span data-page-node-id="lBwjKWD9I1Hw4N5GBXxqXz"><b data-page-node-id="9peEUMPS8LEqRi1Us0MYOd">④</b> <span data-i18n="r4" data-page-node-id="dLiSGnztBDw59zdMPBXSAk">行权</span></span>
+        <span data-page-node-id="YD0ZrzAhnlbvolYnEl8BN5"><b data-page-node-id="Jj64G6XDFZ5djk07dLUE9N">⑤</b> <span data-i18n="r5" data-page-node-id="AiETFmRPodPZba8Gc4PkCY">知权</span></span>
+        <span data-page-node-id="F9lMDxnttuG8FX5OC0Gnl7"><b data-page-node-id="XuJDkDPKZneYCpCIGS0ZdC">⑥</b> <span data-i18n="r6" data-page-node-id="LidgOGHYif0s4QIO3QldmA">执权</span></span>
+        <span data-page-node-id="q2VwCCcGsBbJvxn7WDSz2Y"><b data-page-node-id="vLxA6JOYJ46OU7Q9WaZwd5">⑦</b> <span data-i18n="r7" data-page-node-id="dmuyZHrmh8TgsaKJZiyV3I">授权</span></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DEMO ================= -->
+<section class="demo" id="demo" data-page-node-id="lhmB3dX0O3ytgUWzZIS6yD">
+  <div class="container" data-page-node-id="0cj980GBKwzdiLnHHmhXTY">
+    <div class="rv" data-page-node-id="fSG3oCEyFVUVoPkjIg6k4B">
+      <div class="kicker" style="color:var(--champagne)" data-i18n="demo_kicker" data-page-node-id="PPyNbA7uVxTyuc3XSHuagG">Demo Center · 演示中心</div>
+      <h2 class="sec-title" data-i18n="demo_title" data-page-node-id="HdbF3vqVBYmVackgM3f7l4">亲眼所见：隐形信息如何被手机唤醒</h2>
+      <p class="sec-sub" data-i18n="demo_sub" data-page-node-id="1AMFx0Cjqp6BltJQ0ZfmmV">以下演示视频来自真实技术验证与合作伙伴场景。</p>
+    </div>
+    <div class="video-grid" data-page-node-id="NnXPVUfW87MYCoyMCtOiMp">
+      <div class="video-card main rv" data-page-node-id="fxRpomuoxGudAklCXPsddq">
+        <video controls preload="metadata" src="assets/videos/brand-demo-zh.mp4" data-page-node-id="3frI7fCCNK2fdXhA2nvGrZ"></video>
+        <div class="video-meta" data-page-node-id="uYnI9yuaJFSwKwpcvGSR19"><h4 data-i18n="v1" data-page-node-id="pFkv6o7G8W1AUxDKqnGeT8">Invisible Intelligence Connected · 品牌总览</h4><span data-page-node-id="ESyw5zfMFycdf1CnjQf1Aj">BRAND FILM · 02:00</span></div>
+      </div>
+      <div class="video-card rv" data-page-node-id="zTWLBOwVE2mZmOJmRONWzg">
+        <video controls preload="metadata" src="assets/videos/scalyma-ad.mp4" data-page-node-id="Ft4DumOEDbfNGXLjsJwNE7"></video>
+        <div class="video-meta" data-page-node-id="laSTfeucF9Vo6ZBPbLENOq"><h4 data-i18n="v2" data-page-node-id="9EZJsVzX6tie5zkv8KMobh">Scalyma 技术广告</h4><span data-page-node-id="WanyPEPJE24sB72qXz0V23">SCALYMA AD</span></div>
+      </div>
+      <div class="video-card rv" data-page-node-id="lnlmi9HCCcVRDfguVVVglh">
+        <video controls preload="metadata" src="assets/videos/dk-living-page.mp4" data-page-node-id="tiuelBVlMBoeUJKqfJw3cn"></video>
+        <div class="video-meta" data-page-node-id="E7nqjeSxXfVrdKwLqWQYYS"><h4 data-i18n="v3" data-page-node-id="SBbhgFnIlOlaBXttsDjekp">DK Demo · 会说话的页面</h4><span data-page-node-id="BmrZY44wxeVFFfeHqHiZE0">LIVING PAGE</span></div>
+      </div>
+      <div class="video-card rv" data-page-node-id="vdwDbAf7JUaD2I0d057JWE">
+        <video controls preload="metadata" src="assets/videos/popmart-reveal.mp4" data-page-node-id="gLjiovugFGuVrabqcvv0fu"></video>
+        <div class="video-meta" data-page-node-id="JOCY5OqNsTN6pTEwgr21rq"><h4 data-i18n="v4" data-page-node-id="68fPAuDG7ev5zIwnSxo8Eh">POP MART × SCALYMA · 技术揭秘</h4><span data-page-node-id="HnvY1KFBJaYtGmeW910uqd">IP CASE</span></div>
+      </div>
+      <div class="video-card rv" data-page-node-id="T0gYGyNFys23AznExp78Bv">
+        <video controls preload="metadata" src="assets/videos/chinapost-advantages.mp4" data-page-node-id="OLbH06MZvOHWDF0tzpErzf"></video>
+        <div class="video-meta" data-page-node-id="AyfdrWbn9fYg72AHdjMxZn"><h4 data-i18n="v5" data-page-node-id="TuCvu6wgWJ2kgPelFt7Z0S">China Post × SCALYMA · 核心优势</h4><span data-page-node-id="W7gWJ7QvCJtHQccwuWfr8P">POST CASE</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact" data-page-node-id="xSgLWB23m9QfI097NP2EUf">
+  <div class="container contact-grid" data-page-node-id="KNqzCH7Q35lJHcHCpdFSaP">
+    <div class="contact-info rv" data-page-node-id="PzZoAEkgfYdwXSMBzm3gQt">
+      <div class="kicker" data-i18n="ct_kicker" data-page-node-id="0CcKSkQ00hWV4ZizDxeHg1">Contact · 联系我们</div>
+      <h3 data-i18n="ct_h" data-page-node-id="R639xLwWpFWIvWCM83L16P">让每一件产品，都成为信任的起点</h3>
+      <p data-i18n="ct_p" data-page-node-id="BfiFgt0XGRWblFC964DcCG">欢迎品牌方、印刷包装企业、政府监管机构与产业资本与我们联系，获取技术白皮书、样品测试与联合实验室合作方案。</p>
+      <div class="contact-line" data-page-node-id="rK5Qn2aklnCcodoaU7qfQP"><b data-i18n="ct_co" data-page-node-id="PJa8xHVQyN1zPY4F1SoUwV">公司</b><span data-i18n="ct_cov" data-page-node-id="3y3J2a5Ayb1BePARqfYP06">DigiBiz Limited · 迪致图像（深圳）有限公司</span></div>
+      <div class="contact-line" data-page-node-id="vgAqLXogSclJe7r5Tg6NV9"><b data-i18n="ct_owner" data-page-node-id="IQIZ4Y6vwYdSzMq6iIJYom">负责人 / 发明人</b><span data-page-node-id="6w4t2Sx5NtGHm3GB1HByY9">Alex Cheung</span></div>
+      <div class="contact-line" data-page-node-id="N3lEv9frP4VPZYi3TDQAvV"><b data-i18n="ct_mail2" data-page-node-id="ytjBSvohimme9T6GWgbDud">邮箱</b><span>alex@scalyma.com</span></div>
+      <div class="contact-line"><b data-i18n="ct_loc" data-page-node-id="EaV5XcLIi7cNpOP592oMs9">所在地</b><span data-i18n="ct_locv">深圳 · 中国</span></div>
+    </div>
+    <form class="contact-form rv" onsubmit="event.preventDefault();alert(document.documentElement.lang==='en'?'Thank you! We will contact you soon.':'感谢留言！我们会尽快与您联系。');this.reset();" data-page-node-id="AJqHXlPK7cPYkllREmkcAf">
+      <input type="text" id="fName" data-ph="ct_name" placeholder="您的称呼" required data-page-node-id="E8ZJSYW1p4LCCMPYuL3J2n">
+      <input type="email" id="fMail" data-ph="ct_mail" placeholder="邮箱" required data-page-node-id="AFmCmAuUnAZEHm7FJ7W5T3">
+      <input type="text" id="fComp" data-ph="ct_comp" placeholder="公司 / 机构" data-page-node-id="DzeI2S0yEayF2mTOSH2xD8">
+      <textarea id="fMsg" rows="4" data-ph="ct_msg" placeholder="想了解的技术或合作方向" required></textarea>
+      <button type="submit" data-i18n="ct_send" data-page-node-id="lEMdbsTCzGuS5HkDTYjL20">提交合作意向</button>
+    </form>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer data-page-node-id="iuVfJDxY3df4ckWpF6UGvD">
+  <div class="container" data-page-node-id="oBgeoIm50NKkyA6ih4uhTx">
+    <div class="foot-grid" data-page-node-id="xhFy9IAoGSQyxEiD1cYrkp">
+      <div class="foot-brand" data-page-node-id="IV3ZxXmVPTjS39QbmTlgLx">
+        <a class="logo" href="#top" style="margin-bottom:6px" data-page-node-id="rSte1cDPWrpHPN5SBSjQDR">
+          <img src="assets/logo-white.png" alt="SCALYMA logo" style="height:30px;width:auto" data-page-node-id="jVfppJ0b1KiEykJboWPovw">
+        </a>
+        <p style="color:rgba(255,255,255,.85);letter-spacing:.04em;margin-top:4px" data-i18n="foot_co">DigiBiz Limited · 迪致图像（深圳）有限公司</p>
+        <p data-i18n="foot_desc" data-page-node-id="PlOwztLiEsAvETooaV7LcO">物理-数字融合身份信任基础设施。Scalyma 成像标准 × DHIT 隐形图像 × 码中码® 动态身份 × Scan-EZ 智慧识别。</p>
+      </div>
+      <div class="foot-links" data-page-node-id="zwuTpkJYZFTEPSc7hHNVKp">
+        <div data-page-node-id="nmWA8omLsLsgPXfScxsAji">
+          <h4 data-i18n="foot_t1" data-page-node-id="13oJBxC69zt5aO4xudLP0P">技术</h4>
+          <a href="#tech" data-i18n="foot_l1" data-page-node-id="2sxCBQ2qunpAjmoSQ1GnPg">技术体系</a>
+          <a href="#principles" data-i18n="foot_l2" data-page-node-id="BFdtW9HLzZ9jBWDQp7mCj3">技术原理</a>
+          <a href="#advantage" data-i18n="foot_l3" data-page-node-id="VQd5cIEum64CjFiuskBtkf">核心优势</a>
+        </div>
+        <div data-page-node-id="IcNFv0yFLgPQalacImuisY">
+          <h4 data-i18n="foot_t2" data-page-node-id="VliLYyINtOdH8KnecgeUvO">生态</h4>
+          <a href="#applications" data-i18n="foot_l4" data-page-node-id="Q129gqMKc7HwuCjnriFKqS">应用场景</a>
+          <a href="#demo" data-i18n="foot_l5" data-page-node-id="xrWjbEmFv4QllirYCImJgs">演示中心</a>
+          <a href="#contact" data-i18n="foot_l6" data-page-node-id="yq5a4461XmAMuibranqypP">联系我们</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom" data-page-node-id="Rwx54RsRCF8K4H88teWZLK">
+      <span data-page-node-id="b2SGEkcOOHcxeos08KIihz">© 2026 DigiBiz Limited · 迪致图像（深圳）有限公司. All rights reserved.</span>
+      <span data-i18n="foot_slogan" data-page-node-id="sZckFq9Jr54eLJAJ1KPDfJ">Hidden Imaging · Visible Trust</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ============ i18n ============ */
+const I18N = {
+  zh:{
+    nav_tech:'技术体系',nav_principles:'技术原理',nav_adv:'核心优势',nav_apps:'应用场景',nav_demo:'演示中心',nav_contact:'联系我们',
+    hero_tag:'PHYSICAL × DIGITAL TRUST INFRASTRUCTURE',
+    hero_h1:'隐形的信任，<br>看得见的<span class="reveal-word">价值</span>。',
+    hero_lead:'Scalyma 隐形成像标准、DHIT 数码隐形图像、码中码® 动态身份与 Scan-EZ 智慧识别——四项技术构成完整的物理-数字融合身份信任基础设施：每一件产品都成为安全接口、流量入口与数据资产。',
+    hero_cta1:'探索技术体系',hero_cta2:'观看技术演示',
+    stat1:'奈奎斯特采样保障 · 手机稳定识读',stat2:'等效安全强度 · 动态映射算法',stat3:'额外物料成本 · 纯数码制版',stat4:'大权利体系 · 确权到授权',
+    tech_kicker:'CORE TECHNOLOGY · 核心技术',
+    tech_title:'四位一体，构成物理-数字信任闭环',
+    tech_sub:'四项技术不是孤立的产品，而是一条完整的链路：从"信息如何隐形"，到"成像如何可读而不可复制"，再到"身份如何动态防伪"，最终"验证如何闭环成数据资产"。',
+    tech1:'印刷级隐形成像与加网优化标准：肉眼只见精美图文，手机镜头却能读出隐藏信息。激光制版取代电雕，兼容水性环保油墨，兼容胶印、柔印、凹印与数码印刷——零新增物料成本。',
+    tech1_role:'角色 · 成像底座',
+    tech2:'基于图像高频分量与电磁频谱冗余区间的信息隐藏技术：图像、短码、URL、指令皆可隐形嵌入。肉眼不可见，手机摄像头+算法可读——整个体系的"隐形指纹"。',
+    tech2_role:'角色 · 隐形信息层',
+    tech3:'唯一 QR 主码 + 隐藏微码（两组 12–16 位混合码）+ 动态对应算法。时间、设备、地区、批次、物理纹理五重偏移让映射关系每次验证都重算——复制外壳容易，复制行为不可能。',
+    tech3_role:'角色 · 身份与算法',
+    tech4:'端侧 SDK（抗抖动、弱光增强、畸变矫正、离线缓存）+ 云端验证引擎（密钥托管、风控评分、证书签发）。一码多用多权限：消费者、品牌、政府、IP 市场各取所需。',
+    tech4_role:'角色 · 验证与数据闭环',
+    flow_title:'END-TO-END TRUST PIPELINE · 端到端信任链路',
+    flow_n1:'SCALYMA 成像',flow_n1s:'隐形承载 · 印刷即入口',
+    flow_n2:'DHIT 隐形信息',flow_n2s:'图像 / 短码 / 指令嵌入',
+    flow_n3:'码中码® 动态身份',flow_n3s:'主码 + 微码 + 动态映射',
+    flow_n4:'SCAN-EZ 验证',flow_n4s:'识读 · 风控 · 数据资产',
+    pri_kicker:'HOW IT WORKS · 技术原理',
+    pri_title:'看得见的原理，看不见的防线',
+    pri_sub:'每一层安全都有坚实的数学与物理基础——不是营销话术，而是可以被工程验证的科学。',
+    pri_t1:'① 奈奎斯特采样成像',pri_t2:'② 频域信息隐藏',pri_t3:'③ 动态映射算法',pri_t4:'④ 四层安全体系',
+    pri1_h:'手机为什么能"看见"人眼看不见的信息？',
+    pri1_p1:'Scalyma 遵循奈奎斯特采样定理：只有当手机镜头的空间采样频率 ≥ 隐藏信息最高空间频率的 2 倍时，隐藏信息才能被完整、稳定地还原。人眼的分辨率天然低于这一阈值——所以信息对人隐形，对机器清晰。',
+    pri1_p2:'这意味着隐藏信息不是"碰运气能扫到"，而是在物理上被保证可读；同时制版端通过加网优化控制信噪比与频谱分布，兼顾视觉美感与机器可读性。',
+    pri2_h:'信息藏在图像的"频率夹层"里',
+    pri2_p1:'DHIT 利用图像高频分量与电磁频谱冗余区间嵌入信息：人眼视觉系统（HVS）对特定高频纹理不敏感，而手机 CMOS 传感器+解码算法可以精确提取。',
+    pri2_p2:'承载内容不限于图形——图像、短码、URL、控制指令皆可隐形嵌入印刷品、屏幕甚至装饰面板，且不新增油墨、不改动产线、不加贴标签。',
+    pri2_p3:'其中 W 为满足视觉掩蔽特性的隐形水印函数，α 控制嵌入强度——在"肉眼不可见"与"机器稳定读出"之间取得工程平衡。',
+    pri3_h:'五重动态来源，让伪造成本提升数百倍',
+    pri3_p1:'码中码® 的灵魂是动态对应算法：内码与外码的映射关系不是固定的，而是由五个变量实时计算——即使外码被完美复制，伪造者也无法预测下一次验证的结果。',
+    pri3_p2:'两组 12–16 位混合内码，安全强度接近 AES-128 等级。"真品的行为"永远无法被模仿——这就是从"静态防伪"到"动态信任"的跃迁。',
+    pri4_h:'四层纵深防御，环环相扣',
+    pri4_p1:'以 DHIT 四层安全技术为代表，整个体系构成纵深防御：可见人像层（品牌视觉）→ 隐藏 LOGO 层（品牌暗记）→ 可隐藏图像层（场景信息）→ DHIT 解码层（密钥信息）。',
+    pri4_p2:'攻击者必须同时突破物理成像、频域隐藏、动态算法与云端风控四道独立防线——任一层被触动，云端引擎即刻感知并记录取证。',
+    svg_eye:'HUMAN EYE · 肉眼所见',svg_cam:'CAMERA · 镜头所见',
+    svg_algo:'动态映射算法',svg_s1:'时间偏移',svg_s2:'设备指纹',svg_s3:'地区偏移',svg_s4:'批次偏移',svg_s5:'物理纹理绑定',svg_out:'每次验证 → 全新密钥',
+    svg_l1:'L1 · 可见人像层（品牌视觉）',svg_l2:'L2 · 隐藏 LOGO 层（品牌暗记）',svg_l3:'L3 · 可隐藏图像层（场景信息）',svg_l4:'L4 · DHIT 解码层（核心密钥）',
+    adv_kicker:'WHY US · 核心优势',
+    adv_title:'三大技术优势，重新定义产品身份',
+    adv_sub:'围绕数字安全接口、物理与数字对接互动、手机检测三大方向，形成对手难以逾越的体系性壁垒。',
+    adv1_h:'数字安全接口',
+    adv1_p:'每一件产品都是品牌与世界的加密接口：物理载体即密钥，验证即握手。动态映射 + 云端风控 + 行为风险评分（0–100）+ 证书签发，构成完整的接口级安全体系，支撑确权、用权、维权、行权、知权、执权、授权七大权利落地。',
+    adv2_h:'物理 × 数字对接互动',
+    adv2_p:'包装不再是成本中心，而是流量入口与变现资产：扫一扫即达会员、营销、溯源、复购。五重动态偏移让每一次物理接触都产生独一无二的数字事件——品牌由此获得 D2C 数据资产与渠道洞察。',
+    adv3_h:'手机即检测仪',
+    adv3_p:'无需专用设备：奈奎斯特采样保障让任何主流手机镜头都是"检测仪"。端侧 SDK 抗抖动、弱光增强、畸变矫正、离线缓存，普通消费者 1 秒完成验真——防伪能力第一次真正到达每个终端。',
+    cmp_dim:'对比维度',cmp_qr:'传统二维码 / 一物一码',cmp_nfc:'NFC / RFID 标签',
+    cmp_r1:'复制难度',cmp_r1a:'图案可被整体复制',cmp_r1b:'芯片可被转借/克隆',cmp_r1c:'动态映射+物理纹理，行为不可复制',
+    cmp_r2:'视觉影响',cmp_r2a:'占用版面',cmp_r2b:'需加贴标签',cmp_r2c:'完全隐形，零视觉侵入',
+    cmp_r3:'新增成本',cmp_r3a:'低',cmp_r3b:'每件标签成本',cmp_r3c:'零新增物料，纯数码制版',
+    cmp_r4:'检测方式',cmp_r4a:'手机扫码',cmp_r4b:'需专用读写器',cmp_r4c:'任意手机镜头即检',
+    cmp_r5:'数据能力',cmp_r5a:'扫码记录',cmp_r5b:'近场读取',cmp_r5c:'多维事件流+风险评分+证书签发',
+    app_kicker:'APPLICATIONS · 应用场景',
+    app_title:'从高端白酒到潮玩 IP，无处不在的产品身份',
+    app_sub:'已服务与对接的行业方向：酒类、快消、潮玩收藏、烟草监管、政府溯源、药品追溯、艺术品鉴定等。',
+    app1_h:'名酒防伪溯源',app1_p:'瓶封烫金标志 + 动态身份：茅台级场景的"开瓶验真、瓶瓶溯源"，黄牛窜货一目了然。',
+    app2_h:'快消品互动营销',app2_p:'瓶身/包装即入口：扫码抽奖、会员积分、一物一码营销，让每次购买变成数字触点。',
+    app3_h:'潮玩 IP 确权',app3_p:'盲盒、限量手办、球星卡：隐形确权 + 数字证书 + 二手流转背书，正品身份随物流转。',
+    app4_h:'烟草行业监管',app4_p:'条包级隐形标识 + 渠道数据回流，支撑工业公司与商业公司全链路数字化监管。',
+    app5_h:'政府监管与区域品牌',app5_p:'区域公用品牌（如"圳品"）全程溯源，执法取证包一键调取，监管有据、消费者放心。',
+    app6_h:'奢侈品与艺术品鉴定',app6_p:'香槟金烫金标志 + 隐形密钥：从名表名包到艺术原作，物理载体自带"出厂身份"。',
+    rights_h:'一物七权 —— 产品数字身份的权利体系',
+    r1:'确权',r2:'用权',r3:'维权',r4:'行权',r5:'知权',r6:'执权',r7:'授权',
+    demo_kicker:'DEMO CENTER · 演示中心',
+    demo_title:'亲眼所见：隐形信息如何被手机唤醒',
+    demo_sub:'以下演示视频来自真实技术验证与合作伙伴场景。',
+    v1:'Invisible Intelligence Connected · 品牌总览',v2:'Scalyma 技术广告',v3:'DK Demo · 会说话的页面',v4:'POP MART × SCALYMA · 技术揭秘',v5:'China Post × SCALYMA · 核心优势',
+    ct_kicker:'CONTACT · 联系我们',
+    ct_h:'让每一件产品，都成为信任的起点',
+    ct_p:'欢迎品牌方、印刷包装企业、政府监管机构与产业资本与我们联系，获取技术白皮书、样品测试与联合实验室合作方案。',
+    ct_co:'公司',ct_cov:'DigiBiz Limited · 迪致图像（深圳）有限公司',ct_owner:'负责人 / 发明人',ct_mail2:'邮箱',
+    ct_loc:'所在地',ct_locv:'深圳 · 中国',
+    ct_name:'您的称呼',ct_mail:'邮箱',ct_comp:'公司 / 机构',ct_msg:'想了解的技术或合作方向',ct_send:'提交合作意向',
+    foot_co:'DigiBiz Limited · 迪致图像（深圳）有限公司',
+    foot_desc:'物理-数字融合身份信任基础设施。Scalyma 成像标准 × DHIT 隐形图像 × 码中码® 动态身份 × Scan-EZ 智慧识别。',
+    foot_t1:'技术',foot_t2:'生态',foot_l1:'技术体系',foot_l2:'技术原理',foot_l3:'核心优势',foot_l4:'应用场景',foot_l5:'演示中心',foot_l6:'联系我们',
+    foot_slogan:'Hidden Imaging · Visible Trust'
+  },
+  en:{
+    nav_tech:'Technology',nav_principles:'Principles',nav_adv:'Advantages',nav_apps:'Applications',nav_demo:'Demo Center',nav_contact:'Contact',
+    hero_tag:'PHYSICAL × DIGITAL TRUST INFRASTRUCTURE',
+    hero_h1:'Invisible Trust,<br>Visible <span class="reveal-word">Value</span>.',
+    hero_lead:'Scalyma imaging standard, DHIT digital hidden imaging, Code-in-Code® dynamic identity and Scan-EZ intelligent recognition — four technologies forming a complete physical-digital trust infrastructure: every product becomes a secure interface, a traffic gateway, and a data asset.',
+    hero_cta1:'Explore the Technology',hero_cta2:'Watch Live Demos',
+    stat1:'Nyquist-guaranteed · stable phone reading',stat2:'Equivalent security · dynamic mapping',stat3:'Extra material cost · pure digital platemaking',stat4:'Rights system · from ownership to licensing',
+    tech_kicker:'CORE TECHNOLOGY',
+    tech_title:'Four technologies, one closed trust loop',
+    tech_sub:'These are not four isolated products but one pipeline: how information hides, how imaging stays readable yet unclonable, how identity stays dynamic, and how verification closes into data assets.',
+    tech1:'Print-grade hidden imaging and screening standard: the eye sees fine graphics while a phone lens reads the hidden layer. Laser platemaking replaces engraving, compatible with water-based inks across offset, flexo, gravure and digital — zero extra material cost.',
+    tech1_role:'Role · Imaging Foundation',
+    tech2:'Information hiding based on high-frequency image components and spectral redundancy: images, short codes, URLs and commands can all be embedded invisibly — readable by camera + algorithm, invisible to the eye. The invisible fingerprint of the system.',
+    tech2_role:'Role · Hidden Information Layer',
+    tech3:'Unique QR master code + hidden micro-codes (two 12–16 digit hybrid codes) + dynamic mapping algorithm. Time, device, region, batch and physical-texture offsets recompute the mapping at every verification — copying the shell is easy; copying the behavior is impossible.',
+    tech3_role:'Role · Identity & Algorithm',
+    tech4:'On-device SDK (anti-shake, low-light boost, distortion correction, offline cache) + cloud verification engine (key escrow, risk scoring, certificate issuance). One code, many roles: consumers, brands, governments and IP markets.',
+    tech4_role:'Role · Verification & Data Loop',
+    flow_title:'END-TO-END TRUST PIPELINE',
+    flow_n1:'SCALYMA Imaging',flow_n1s:'Hidden carrier · print as gateway',
+    flow_n2:'DHIT Hidden Data',flow_n2s:'Image / code / command embedding',
+    flow_n3:'Code-in-Code® Identity',flow_n3s:'Master + micro code + dynamic mapping',
+    flow_n4:'SCAN-EZ Verification',flow_n4s:'Read · risk control · data assets',
+    pri_kicker:'HOW IT WORKS',
+    pri_title:'Visible principles, invisible defenses',
+    pri_sub:'Every layer of security rests on solid mathematics and physics — engineering-verifiable science, not marketing.',
+    pri_t1:'① Nyquist Sampling Imaging',pri_t2:'② Frequency-Domain Hiding',pri_t3:'③ Dynamic Mapping Algorithm',pri_t4:'④ Four-Layer Defense',
+    pri1_h:'Why can a phone "see" what the human eye cannot?',
+    pri1_p1:'Scalyma follows the Nyquist sampling theorem: only when the phone camera spatial sampling rate ≥ 2× the maximum spatial frequency of hidden information can the hidden layer be fully and stably reconstructed. Human vision naturally falls below this threshold — hidden to people, clear to machines.',
+    pri1_p2:'Hidden information is not "occasionally scannable" — it is physically guaranteed readable. Platemaking-side screening optimization controls SNR and spectral distribution, balancing visual aesthetics and machine readability.',
+    pri2_h:'Information lives in the "frequency interlayer" of the image',
+    pri2_p1:'DHIT embeds information in high-frequency components and spectral redundancy: the human visual system is insensitive to specific high-frequency textures, while CMOS sensors + decoding algorithms extract them precisely.',
+    pri2_p2:'Payloads go beyond graphics — images, short codes, URLs and commands can be embedded into print, screens and even decorative panels, with no new ink, no line changes, no added labels.',
+    pri2_p3:'W is a visually-masked watermark function; α controls embedding strength — an engineering balance between "invisible to the eye" and "stably machine-readable".',
+    pri3_h:'Five dynamic sources — counterfeiting cost up by orders of magnitude',
+    pri3_p1:'The soul of Code-in-Code® is the dynamic mapping algorithm: the inner/outer code mapping is computed in real time from five variables — even a perfect clone of the outer code cannot predict the next verification result.',
+    pri3_p2:'Two 12–16 digit hybrid micro-codes approach AES-128-class strength. The "behavior of the genuine article" can never be imitated — the leap from static anti-counterfeiting to dynamic trust.',
+    pri4_h:'Four defense layers, interlocked',
+    pri4_p1:'Represented by the DHIT four-layer security: visible portrait layer (brand visual) → hidden LOGO layer (brand mark) → concealable image layer (scenario info) → DHIT decoding layer (key information).',
+    pri4_p2:'An attacker must break through four independent defenses at once — physical imaging, frequency hiding, dynamic algorithm and cloud risk control. Any touched layer is instantly sensed and forensically logged.',
+    svg_eye:'HUMAN EYE',svg_cam:'CAMERA',
+    svg_algo:'Dynamic Mapping',svg_s1:'Time offset',svg_s2:'Device fingerprint',svg_s3:'Region offset',svg_s4:'Batch offset',svg_s5:'Texture binding',svg_out:'Every verification → new key',
+    svg_l1:'L1 · Visible Portrait Layer',svg_l2:'L2 · Hidden LOGO Layer',svg_l3:'L3 · Concealable Image Layer',svg_l4:'L4 · DHIT Decoding Layer',
+    adv_kicker:'WHY US',
+    adv_title:'Three advantages that redefine product identity',
+    adv_sub:'Built around digital secure interfaces, physical-digital interaction, and phone-based detection — a systemic moat competitors struggle to cross.',
+    adv1_h:'Digital Secure Interface',
+    adv1_p:'Every product is an encrypted interface between brand and world: the physical carrier is the key, verification is the handshake. Dynamic mapping + cloud risk control + behavior risk scoring (0–100) + certificate issuance support seven rights: ownership, usage, enforcement, exercise, knowledge, execution and licensing.',
+    adv2_h:'Physical × Digital Interaction',
+    adv2_p:'Packaging stops being a cost center and becomes a traffic gateway: one scan reaches membership, marketing, traceability and repurchase. Five dynamic offsets make every physical touch a unique digital event — delivering D2C data assets and channel insight.',
+    adv3_h:'Every Phone Is a Detector',
+    adv3_p:'No special hardware needed: Nyquist-guaranteed readability turns any mainstream phone lens into a detector. The on-device SDK handles shake, low light and distortion; consumers verify authenticity in one second — anti-counterfeiting finally reaches every terminal.',
+    cmp_dim:'Dimension',cmp_qr:'Traditional QR / unique code',cmp_nfc:'NFC / RFID tags',
+    cmp_r1:'Copy difficulty',cmp_r1a:'Artwork fully cloneable',cmp_r1b:'Chips transferable/clonable',cmp_r1c:'Dynamic mapping + texture — behavior unclonable',
+    cmp_r2:'Visual impact',cmp_r2a:'Occupies layout',cmp_r2b:'Extra label required',cmp_r2c:'Fully invisible, zero visual intrusion',
+    cmp_r3:'Added cost',cmp_r3a:'Low',cmp_r3b:'Per-unit tag cost',cmp_r3c:'Zero extra material, pure digital platemaking',
+    cmp_r4:'Detection',cmp_r4a:'Phone scan',cmp_r4b:'Dedicated readers',cmp_r4c:'Any phone camera works',
+    cmp_r5:'Data capability',cmp_r5a:'Scan logs',cmp_r5b:'Near-field reads',cmp_r5c:'Multi-dimensional events + risk score + certificates',
+    app_kicker:'APPLICATIONS',
+    app_title:'From premium spirits to designer toys — product identity everywhere',
+    app_sub:'Served industries: liquor, FMCG, collectible toys, tobacco oversight, government traceability, pharma, art authentication and more.',
+    app1_h:'Premium Liquor Anti-Counterfeiting',app1_p:'Gilded seal mark + dynamic identity: bottle-level verification and traceability at Maotai-class scenarios; grey-market diversion made visible.',
+    app2_h:'FMCG Interactive Marketing',app2_p:'Bottle and package as gateway: scan-to-win, loyalty points, per-unit marketing — every purchase becomes a digital touchpoint.',
+    app3_h:'Designer Toy IP Authentication',app3_p:'Blind boxes, limited figures, trading cards: invisible authentication + digital certificates + resale endorsement.',
+    app4_h:'Tobacco Industry Oversight',app4_p:'Carton-level hidden marks + channel data feedback, supporting full-chain digital oversight.',
+    app5_h:'Government & Regional Brands',app5_p:'Regional public brands traced end-to-end; enforcement evidence packages on demand.',
+    app6_h:'Luxury & Art Authentication',app6_p:'Champagne-gold gilded mark + hidden keys: from watches to original artworks, the carrier carries its own birth identity.',
+    rights_h:'One Product, Seven Rights — the rights system of digital product identity',
+    r1:'Ownership',r2:'Usage',r3:'Enforcement',r4:'Exercise',r5:'Knowledge',r6:'Execution',r7:'Licensing',
+    demo_kicker:'DEMO CENTER',
+    demo_title:'See it yourself: hidden information awakened by a phone',
+    demo_sub:'Demo videos from real technical validation and partner scenarios.',
+    v1:'Invisible Intelligence Connected · Brand Film',v2:'SCALYMA Tech Ad',v3:'DK Demo · The Living Page',v4:'POP MART × SCALYMA · Tech Reveal',v5:'China Post × SCALYMA · Advantages',
+    ct_kicker:'CONTACT',
+    ct_h:'Make every product the starting point of trust',
+    ct_p:'Brands, printing & packaging companies, government agencies and industrial capital are welcome — technical white papers, sample testing and joint-lab programs available.',
+    ct_co:'Company',ct_cov:'DigiBiz Limited · 迪致图像（深圳）有限公司',ct_owner:'Head / Inventor',ct_mail2:'Email',
+    ct_loc:'Location',ct_locv:'Shenzhen · China',
+    ct_name:'Your name',ct_mail:'Email',ct_comp:'Company / Organization',ct_msg:'Technologies or cooperation of interest',ct_send:'Submit Inquiry',
+    foot_co:'DigiBiz Limited · 迪致图像（深圳）有限公司',
+    foot_desc:'Physical-digital trust infrastructure. Scalyma imaging × DHIT hidden imaging × Code-in-Code® dynamic identity × Scan-EZ recognition.',
+    foot_t1:'Technology',foot_t2:'Ecosystem',foot_l1:'Technology',foot_l2:'Principles',foot_l3:'Advantages',foot_l4:'Applications',foot_l5:'Demo Center',foot_l6:'Contact',
+    foot_slogan:'Hidden Imaging · Visible Trust'
+  }
+};
+
+function setLang(lang){
+  document.documentElement.lang = lang==='en' ? 'en' : 'zh-CN';
+  document.querySelectorAll('[data-i18n]').forEach(el=>{
+    const k=el.getAttribute('data-i18n');
+    if(I18N[lang][k]!=null) el.textContent=I18N[lang][k];
+  });
+  document.querySelectorAll('[data-i18n-html]').forEach(el=>{
+    const k=el.getAttribute('data-i18n-html');
+    if(I18N[lang][k]!=null) el.innerHTML=I18N[lang][k];
+  });
+  document.querySelectorAll('[data-svgi18n]').forEach(el=>{
+    const k=el.getAttribute('data-svgi18n');
+    if(I18N[lang][k]!=null) el.textContent=I18N[lang][k];
+  });
+  document.querySelectorAll('[data-ph]').forEach(el=>{
+    const k=el.getAttribute('data-ph');
+    if(I18N[lang][k]!=null) el.placeholder=I18N[lang][k];
+  });
+  document.getElementById('langBtn').textContent = lang==='en' ? '中文' : 'EN';
+  localStorage.setItem('scalyma_lang',lang);
+}
+document.getElementById('langBtn').addEventListener('click',()=>{
+  setLang(document.documentElement.lang==='en'?'zh':'en');
+});
+setLang(localStorage.getItem('scalyma_lang')||'zh');
+
+/* ============ nav ============ */
+const nav=document.getElementById('nav');
+window.addEventListener('scroll',()=>{nav.classList.toggle('scrolled',window.scrollY>40)});
+document.getElementById('navToggle').addEventListener('click',()=>document.getElementById('navLinks').classList.toggle('open'));
+document.querySelectorAll('.nav-links a').forEach(a=>a.addEventListener('click',()=>document.getElementById('navLinks').classList.remove('open')));
+
+/* ============ tabs ============ */
+document.querySelectorAll('.tab-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p=>p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(btn.dataset.tab).classList.add('active');
+  });
+});
+
+/* ============ reveal on scroll ============ */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+
+/* ============ hero halftone canvas ============ */
+const cv=document.getElementById('halftone'),ctx=cv.getContext('2d');
+let W,H,dots=[],mx=-999,my=-999;
+function initDots(){
+  W=cv.width=cv.offsetWidth*devicePixelRatio; H=cv.height=cv.offsetHeight*devicePixelRatio;
+  const gap=26*devicePixelRatio; dots=[];
+  for(let y=gap;y<H;y+=gap)for(let x=gap;x<W;x+=gap){
+    const t=Math.hypot(x-W*.72,y-H*.4);
+    dots.push({x,y,t,phase:Math.random()*Math.PI*2});
+  }
+}
+function draw(ts){
+  ctx.clearRect(0,0,W,H);
+  for(const d of dots){
+    const dx=d.x-mx,dy=d.y-my,dist=Math.hypot(dx,dy);
+    const R=180*devicePixelRatio;
+    const wake=Math.max(0,1-dist/R);
+    const wave=(Math.sin(ts/1600+d.phase)+1)/2*.25;
+    const alpha=.05+wake*.75+wave*.08;
+    const r=(1.1+wake*3.2)*devicePixelRatio;
+    const hiddenX=d.x<W*.55*devicePixelRatio;
+    ctx.beginPath();
+    ctx.fillStyle=hiddenX?`rgba(180,178,169,${alpha*.4})`:`rgba(90,160,225,${alpha})`;
+    if(wake>0.05)ctx.fillStyle=`rgba(176,141,87,${.25+wake*.7})`;
+    ctx.arc(d.x,d.y,r,0,7);ctx.fill();
+  }
+  requestAnimationFrame(draw);
+}
+initDots();requestAnimationFrame(draw);
+window.addEventListener('resize',initDots);
+document.querySelector('.hero').addEventListener('mousemove',e=>{
+  const r=cv.getBoundingClientRect();
+  mx=(e.clientX-r.left)*devicePixelRatio;my=(e.clientY-r.top)*devicePixelRatio;
+});
+document.querySelector('.hero').addEventListener('mouseleave',()=>{mx=-999;my=-999});
+</script>
+<script src="assets/ai-chat.js"></script>
+</body>
+</html>
